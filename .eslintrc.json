@@ -4,7 +4,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["next/core-web-vitals", "airbnb", "plugin:jsx-a11y/recommended", "plugin:react-hooks/recommended", "prettier"],
+  "extends": ["airbnb", "plugin:jsx-a11y/recommended", "plugin:react-hooks/recommended", "prettier", "plugin:@next/next/recommended"],
   "settings": {
     "import/resolver": {
       "node": {
