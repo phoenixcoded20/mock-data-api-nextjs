@@ -1,12 +1,7 @@
-const columnIdsData = {
-  column1: 'column-1',
-  column2: 'column-2',
-  column3: 'column-3',
-  column4: 'column-4'
-};
+import columnsOrderData from 'data/kanban-columns-order.json';
+import cors from 'utils/cors';
 
-const columnsOrderData = [columnIdsData.column1, columnIdsData.column2, columnIdsData.column3, columnIdsData.column4];
-
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await cors(req, res);
   return res.status(200).json({ columnsOrder: columnsOrderData });
 }

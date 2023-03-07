@@ -1,0 +1,20 @@
+[
+  {
+    "id": "profile-1",
+    "avatar": "user-3.png",
+    "name": "Barney Thea",
+    "time": "2 min ago"
+  },
+  {
+    "id": "profile-2",
+    "avatar": "user-1.png",
+    "name": "Maddison Wilber",
+    "time": "1 day ago"
+  },
+  {
+    "id": "profile-3",
+    "avatar": "user-2.png",
+    "name": "John Doe",
+    "time": "now"
+  }
+]

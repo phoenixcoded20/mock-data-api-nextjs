@@ -1,9 +1,11 @@
 import { Chance } from 'chance';
+import cors from 'utils/cors';
 
 const chance = new Chance();
 let amount;
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await cors(req, res);
   const { total, code } = req.body;
   amount = 0;
   if (total > 0) {

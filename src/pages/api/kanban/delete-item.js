@@ -1,4 +1,7 @@
-export default function handler(req, res) {
+import cors from 'utils/cors';
+
+export default async function handler(req, res) {
+  await cors(req, res);
   const { columns, itemId, userStory, items } = req.body;
   const newColumn = columns.map((column) => {
     const itemIds = column.itemIds.filter((id) => id !== itemId);
