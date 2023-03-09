@@ -1,0 +1,27 @@
+[
+  {
+    "id": "comment-1",
+    "comment": "Comment 1",
+    "profileId": "profile-1"
+  },
+  {
+    "id": "comment-2",
+    "comment": "Comment 2",
+    "profileId": "profile-2"
+  },
+  {
+    "id": "comment-3",
+    "comment": "Comment 3",
+    "profileId": "profile-3"
+  },
+  {
+    "id": "comment-4",
+    "comment": "Comment 4",
+    "profileId": "profile-2"
+  },
+  {
+    "id": "comment-5",
+    "comment": "Comment 5",
+    "profileId": "profile-3"
+  }
+]

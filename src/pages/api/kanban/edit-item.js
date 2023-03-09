@@ -1,5 +1,9 @@
-export default function handler(req, res) {
+import cors from 'utils/cors';
+
+export default async function handler(req, res) {
+  await cors(req, res);
   const { items, item, userStory, storyId, columns, columnId } = req.body;
+
   items.splice(
     items.findIndex((i) => i.id === item.id),
     1,
@@ -80,5 +84,7 @@ export default function handler(req, res) {
     userStory: newUserStory
   };
 
-  return res.status(200).json({ ...result });
+  return res.status(200).json({
+    ...result
+  });
 }

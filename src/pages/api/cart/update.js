@@ -1,11 +1,13 @@
 import { filter } from 'lodash';
+import cors from 'utils/cors';
 
 let oldSubTotal;
 let subtotal;
 let latestProducts;
 let result;
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await cors(req, res);
   const { id, quantity, products } = req.body;
   result = filter(products, { itemId: id });
   subtotal = quantity * result[0].offerPrice;

@@ -1,5 +1,6 @@
 import { filter } from 'lodash';
 import { Chance } from 'chance';
+import cors from 'utils/cors';
 
 const chance = new Chance();
 
@@ -8,7 +9,8 @@ let newProduct;
 let subtotal;
 let latestProducts;
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await cors(req, res);
   const { product, products } = req.body;
   newProduct = { ...product, itemId: chance.timestamp() };
   subtotal = newProduct.quantity * newProduct.offerPrice;

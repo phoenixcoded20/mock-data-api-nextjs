@@ -1,30 +1,20 @@
-import jwt from 'jsonwebtoken';
-
 // project imports
 import { JWT_API } from 'config';
-
+import cors from 'utils/cors';
+import { verify } from 'jsonwebtoken';
+import users from 'data/users.json';
 // constant
 const JWT_SECRET = JWT_API.secret;
-let users = [
-  {
-    id: '5e86809283e28b96d2d38537',
-    email: 'info@codedthemes.com',
-    password: '123456',
-    name: 'JWT User'
-  }
-];
+
 export default async function handler(req, res) {
-  const { Authorization } = req.headers;
-  if (!Authorization) {
+  await cors(req, res);
+  const { authorization } = req.headers;
+  if (!authorization) {
     res.status(401).json({ message: 'Token Missing' });
   }
-  if (window.localStorage.getItem('users') !== undefined && window.localStorage.getItem('users') !== null) {
-    const localUsers = window.localStorage.getItem('users');
-    users = JSON.parse(localUsers);
-  }
-  const serviceToken = Authorization.toString();
-  const jwData = jwt.verify(serviceToken, JWT_SECRET);
-  const { userId } = jwData;
+  const accessToken = `${authorization}`.split(' ')[1];
+  const data = verify(accessToken, JWT_SECRET);
+  const userId = typeof data === 'object' ? data?.userId : '';
   const user = users.find((_user) => _user.id === userId);
 
   if (!user) {
@@ -33,7 +23,8 @@ export default async function handler(req, res) {
   return res.status(200).json({
     user: {
       id: user.id,
-      email: user.email
+      email: user.email,
+      name: user.name
     }
   });
 }

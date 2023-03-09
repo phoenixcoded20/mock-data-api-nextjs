@@ -1,4 +1,7 @@
-export default function handler(req, res) {
+import cors from 'utils/cors';
+
+export default async function handler(req, res) {
+  await cors(req, res);
   const { columnId, columnsOrder, columns } = req.body;
   columns.splice(
     columns.findIndex((column) => column.id === columnId),

@@ -1,0 +1,35 @@
+[
+  {
+    "image": "user-1.png",
+    "name": "Elnora",
+    "designation": "Lead Marketing Facilitator",
+    "badgeStatus": "active",
+    "subContent": "We need to generate the virtual CSS hard drive!",
+    "email": "Reid_OConnell4@yahoo.com",
+    "phone": "506-654-1653",
+    "location": "Saucerize",
+    "progressValue": "78%"
+  },
+  {
+    "image": "user-2.png",
+    "name": "Hirohito",
+    "designation": "Investor Creative Liaison",
+    "badgeStatus": "active",
+    "subContent": "If we synthesize the protocol, we can get to the RSS circuit through.",
+    "email": "Conner22@hotmail.com",
+    "phone": "673-157-1670",
+    "location": "Port Narcos",
+    "progressValue": "78%"
+  },
+  {
+    "image": "user-3.png",
+    "name": "Kathie",
+    "designation": "Human Accountability Strategist",
+    "badgeStatus": "inactive",
+    "subContent": "We need to generate the virtual CSS hard drive!",
+    "email": "Dangelo40@company.com",
+    "phone": "506-654-1653",
+    "location": "Saucerize",
+    "progressValue": "78%"
+  }
+]

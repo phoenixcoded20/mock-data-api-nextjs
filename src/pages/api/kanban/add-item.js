@@ -1,5 +1,9 @@
-export default function handler(req, res) {
+import cors from 'utils/cors';
+
+export default async function handler(req, res) {
+  await cors(req, res);
   const { columnId, columns, item, items, storyId, userStory } = req.body;
+
   let newColumn = columns;
   if (columnId !== '0') {
     newColumn = columns.map((column) => {
@@ -17,7 +21,10 @@ export default function handler(req, res) {
   if (storyId !== '0') {
     newUserStory = userStory.map((story) => {
       if (story.id === storyId) {
-        return { ...story, itemIds: story.itemIds ? [...story.itemIds, item.id] : [item.id] };
+        return {
+          ...story,
+          itemIds: story.itemIds ? [...story.itemIds, item.id] : [item.id]
+        };
       }
       return story;
     });
@@ -29,5 +36,7 @@ export default function handler(req, res) {
     userStory: newUserStory
   };
 
-  return res.status(200).json({ ...result });
+  return res.status(200).json({
+    ...result
+  });
 }
