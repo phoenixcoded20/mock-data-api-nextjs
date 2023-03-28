@@ -1,6 +1,6 @@
 [
   {
-    "image": "user-1.png",
+    "image": "avatar-1.png",
     "name": "Elnora",
     "designation": "Lead Marketing Facilitator",
     "badgeStatus": "active",
@@ -11,7 +11,7 @@
     "progressValue": "78%"
   },
   {
-    "image": "user-2.png",
+    "image": "avatar-2.png",
     "name": "Hirohito",
     "designation": "Investor Creative Liaison",
     "badgeStatus": "active",
@@ -22,7 +22,7 @@
     "progressValue": "78%"
   },
   {
-    "image": "user-3.png",
+    "image": "avatar-3.png",
     "name": "Kathie",
     "designation": "Human Accountability Strategist",
     "badgeStatus": "inactive",

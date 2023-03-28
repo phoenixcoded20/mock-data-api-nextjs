@@ -1,7 +1,7 @@
 [
   {
     "id": "#1Card_Perry",
-    "avatar": "user-7.png",
+    "avatar": "avatar-7.png",
     "profile": "profile-back-1.png",
     "name": "Perry",
     "role": "Internal Assurance Architect",
@@ -9,7 +9,7 @@
   },
   {
     "id": "#2Card_Jennyfer",
-    "avatar": "user-6.png",
+    "avatar": "avatar-6.png",
     "profile": "profile-back-2.png",
     "name": "Jennyfer",
     "role": "Internal Data Facilitator",
@@ -17,7 +17,7 @@
   },
   {
     "id": "#3Card_Antonette",
-    "avatar": "user-5.png",
+    "avatar": "avatar-5.png",
     "profile": "profile-back-3.png",
     "name": "Antonette",
     "role": "National Applications Officer",
@@ -25,7 +25,7 @@
   },
   {
     "id": "#4Card_Mekhi",
-    "avatar": "user-4.png",
+    "avatar": "avatar-4.png",
     "profile": "profile-back-4.png",
     "name": "Mekhi",
     "role": "Central Quality Liaison",
@@ -33,7 +33,7 @@
   },
   {
     "id": "#5Card_Margie",
-    "avatar": "user-3.png",
+    "avatar": "avatar-3.png",
     "profile": "profile-back-5.png",
     "name": "Margie",
     "role": "Direct Implementation Developer",
@@ -41,7 +41,7 @@
   },
   {
     "id": "#6Card_Wilfrid",
-    "avatar": "user-2.png",
+    "avatar": "avatar-2.png",
     "profile": "profile-back-6.png",
     "name": "Wilfrid",
     "role": "Lead Intranet Planner",
@@ -49,7 +49,7 @@
   },
   {
     "id": "#7Card_Kennedy",
-    "avatar": "user-1.png",
+    "avatar": "avatar-1.png",
     "profile": "profile-back-7.png",
     "name": "Kennedy",
     "role": "Regional Division Administrator",
@@ -57,7 +57,7 @@
   },
   {
     "id": "#8Card_Ida",
-    "avatar": "user-4.png",
+    "avatar": "avatar-4.png",
     "profile": "profile-back-8.png",
     "name": "Ida",
     "role": "Central Brand Coordinator",
@@ -65,7 +65,7 @@
   },
   {
     "id": "#9Card_Madyson",
-    "avatar": "user-5.png",
+    "avatar": "avatar-5.png",
     "profile": "profile-back-9.png",
     "name": "Madyson",
     "role": "Product Tactics Facilitator",
@@ -73,7 +73,7 @@
   },
   {
     "id": "#10Card_Murphy",
-    "avatar": "user-6.png",
+    "avatar": "avatar-6.png",
     "profile": "profile-back-10.png",
     "name": "Murphy",
     "role": "Lead Directives Analyst",
@@ -81,7 +81,7 @@
   },
   {
     "id": "#11Card_Lucie",
-    "avatar": "user-7.png",
+    "avatar": "avatar-7.png",
     "profile": "profile-back-11.png",
     "name": "Lucie",
     "role": "Principal Marketing Administrator",
@@ -89,7 +89,7 @@
   },
   {
     "id": "#12Card_Sonny",
-    "avatar": "user-1.png",
+    "avatar": "avatar-1.png",
     "profile": "profile-back-12.png",
     "name": "Sonny",
     "role": "Direct Assurance Administrator",

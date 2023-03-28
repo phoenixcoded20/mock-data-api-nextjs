@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "avatar": "user-1.png",
+    "avatar": "avatar-1.png",
     "name": "Curtis",
     "verify": 1,
     "email": "wiegand@hotmail.com",
@@ -12,7 +12,7 @@
   },
   {
     "id": "02",
-    "avatar": "user-2.png",
+    "avatar": "avatar-2.png",
     "name": "Xavier",
     "verify": 1,
     "email": "tyrell86@company.com",
@@ -23,7 +23,7 @@
   },
   {
     "id": "03",
-    "avatar": "user-3.png",
+    "avatar": "avatar-3.png",
     "name": "Lola",
     "verify": 1,
     "email": "aufderhar56@yahoo.com",
@@ -34,7 +34,7 @@
   },
   {
     "id": "04",
-    "avatar": "user-4.png",
+    "avatar": "avatar-4.png",
     "name": "Milton",
     "verify": 1,
     "email": "dikinson49@hotmail.com",
@@ -45,7 +45,7 @@
   },
   {
     "id": "05",
-    "avatar": "user-5.png",
+    "avatar": "avatar-5.png",
     "name": "Lysanne",
     "verify": 0,
     "email": "zack.turner49@company.com",
@@ -56,7 +56,7 @@
   },
   {
     "id": "06",
-    "avatar": "user-6.png",
+    "avatar": "avatar-6.png",
     "name": "Bonita",
     "verify": 1,
     "email": "keebler57@company.com",
@@ -67,7 +67,7 @@
   },
   {
     "id": "07",
-    "avatar": "user-7.png",
+    "avatar": "avatar-7.png",
     "name": "Retta",
     "verify": 1,
     "email": "mathew92@yahoo.com",
@@ -78,7 +78,7 @@
   },
   {
     "id": "08",
-    "avatar": "user-8.png",
+    "avatar": "avatar-8.png",
     "name": "Zoie",
     "verify": 1,
     "email": "hulda1@hotmail.com",
@@ -89,7 +89,7 @@
   },
   {
     "id": "09",
-    "avatar": "user-9.png",
+    "avatar": "avatar-9.png",
     "name": "Easton",
     "verify": 1,
     "email": "hilpert66@hotmail.com",
@@ -100,7 +100,7 @@
   },
   {
     "id": "10",
-    "avatar": "user-10.png",
+    "avatar": "avatar-10.png",
     "name": "Brianne",
     "verify": 1,
     "email": "noe45@hotmail.com",
