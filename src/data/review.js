@@ -10,7 +10,7 @@ export const productReviews = [
     review: chance.paragraph({ sentences: 2 }),
     date: sub(new Date(), { days: 0, hours: 1, minutes: 45 }),
     profile: {
-      avatar: 'user-1.png',
+      avatar: 'avatar-1.png',
       name: chance.name({ nationality: 'en' }),
       status: chance.bool()
     }
@@ -21,7 +21,7 @@ export const productReviews = [
     review: chance.paragraph({ sentences: 2 }),
     date: sub(new Date(), { days: 5, hours: 12, minutes: 55 }),
     profile: {
-      avatar: 'user-2.png',
+      avatar: 'avatar-2.png',
       name: chance.name({ nationality: 'en' }),
       status: chance.bool()
     }
@@ -32,7 +32,7 @@ export const productReviews = [
     review: chance.paragraph({ sentences: 2 }),
     date: sub(new Date(), { days: 8, hours: 6, minutes: 20 }),
     profile: {
-      avatar: 'user-3.png',
+      avatar: 'avatar-3.png',
       name: chance.name({ nationality: 'en' }),
       status: chance.bool()
     }

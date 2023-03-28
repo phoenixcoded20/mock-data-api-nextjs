@@ -1,1 +1,7 @@
-[{"id":"5e86809283e28b96d2d38537","email":"info@codedthemes.com","password":"123456","name":"JWT User"},{"id":"344353656373","email":"milanbhikadiya22@gmail.com","password":"123456","name":"Milan Bhikadiya"},{"id":"61d81b3d","email":"milanbhikadiya@gmail.com","password":"123456","name":"Milan Bhikadiya"},{"id":"774598e0","email":"test@test.com","password":"Test1234","name":"New Test"}]
+[
+  { "id": "5e86809283e28b96d2d38537", "email": "info@codedthemes.com", "password": "123456", "name": "JWT User" },
+  { "id": "344353656373", "email": "milanbhikadiya22@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
+  { "id": "61d81b3d", "email": "milanbhikadiya@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
+  { "id": "774598e0", "email": "test@test.com", "password": "Test1234", "name": "New Test" },
+  { "id": "9571bb3a", "email": "amit@phoenixcoded.co", "password": "aA@123456", "name": "Amit Gorasiya" }
+]
