@@ -13,6 +13,7 @@
         {
           "id": "default",
           "title": "default",
+          "icon": "dashboard",
           "type": "item",
           "url": "/dashboard/default",
           "breadcrumbs": false
@@ -21,6 +22,7 @@
           "id": "analytics",
           "title": "analytics",
           "type": "item",
+          "icon": "device",
           "url": "/dashboard/analytics",
           "breadcrumbs": false
         }
