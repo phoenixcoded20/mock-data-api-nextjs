@@ -1,4 +1,4 @@
-import calendarEvents from 'data/calendar-events.json';
+import calendarEvents from 'data/calendar';
 import cors from 'utils/cors';
 import fs from 'fs';
 import _ from 'lodash';

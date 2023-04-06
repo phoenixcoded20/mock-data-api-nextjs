@@ -1,4 +1,4 @@
-import events from 'data/calendar-events.json';
+import events from 'data/calendar';
 import cors from 'utils/cors';
 
 export default async function handler(req, res) {
