@@ -15,8 +15,5 @@ export default async function handler(req, res) {
     return _event;
   });
 
-  await fs.writeFile('src/data/calendar-events.json', JSON.stringify(events), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({ events });
-  });
+  return res.status(200).json({ events });
 }

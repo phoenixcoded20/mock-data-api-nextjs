@@ -14,10 +14,5 @@ export default async function handler(req, res) {
     return post;
   });
 
-  await fs.writeFile('src/data/posts.json', JSON.stringify(filterPosts), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({
-      posts: filterPosts
-    });
-  });
+  return res.status(200).json({ posts: filterPosts });
 }

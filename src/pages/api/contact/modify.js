@@ -13,8 +13,5 @@ export default async function handler(req, res) {
   } else {
     contacts.push({ ...user, id: contacts.length + 1 });
   }
-  await fs.writeFile('src/data/contact.json', JSON.stringify(contacts), async (err) => {
-    if (err) throw err;
-    return res.status(200).json(contacts);
-  });
+  return res.status(200).json(contacts);
 }

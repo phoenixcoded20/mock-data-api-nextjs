@@ -32,8 +32,5 @@ export default async function handler(req, res) {
   }
 
   address = [...address, newAddress];
-  await fs.writeFile('src/data/address.json', JSON.stringify(address), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({ address });
-  });
+  return res.status(200).json({ address });
 }

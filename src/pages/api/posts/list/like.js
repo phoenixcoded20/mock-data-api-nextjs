@@ -12,10 +12,5 @@ export default async function handler(req, res) {
   post.data.likes.like = !post.data.likes.like;
   post.data.likes.value = post.data.likes.like ? post.data.likes.value + 1 : post.data.likes.value - 1;
   posts[postIndex] = post;
-  await fs.writeFile('src/data/posts.json', JSON.stringify(posts), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({
-      posts
-    });
-  });
+  return res.status(200).json({ posts });
 }

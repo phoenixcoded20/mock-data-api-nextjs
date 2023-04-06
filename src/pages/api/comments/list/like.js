@@ -14,10 +14,5 @@ export default async function handler(req, res) {
   if (comment && comment.data && comment.data.likes)
     comment.data.likes.value = comment.data.likes.like ? comment.data.likes.value + 1 : comment.data.likes.value - 1;
   if (post && post.data && post.data.comments) post.data.comments[commentIndex] = comment;
-  await fs.writeFile('src/data/posts.json', JSON.stringify(posts), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({
-      posts
-    });
-  });
+  return res.status(200).json({ posts });
 }

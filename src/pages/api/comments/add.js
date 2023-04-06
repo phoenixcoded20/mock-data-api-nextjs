@@ -10,10 +10,5 @@ export default async function handler(req, res) {
   const cComments = post.data.comments || [];
   post.data.comments = [comment, ...cComments];
 
-  await fs.writeFile('src/data/posts.json', JSON.stringify(posts), async (err) => {
-    if (err) throw err;
-    return res.status(200).json({
-      posts
-    });
-  });
+  return res.status(200).json({ posts });
 }
