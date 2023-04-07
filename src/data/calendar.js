@@ -43,7 +43,7 @@ const events = [
     title: 'All Day Event'
   },
   {
-    id: '5e8882fcd525e076b3c1542c',
+    id: '5e8882fcd525e076b3c1542d',
     allDay: false,
     color: EVENT_COLORS[3],
     textColor: EVENT_COLORS[4],
@@ -53,7 +53,7 @@ const events = [
     title: 'Opening Ceremony'
   },
   {
-    id: '5e8882eb5f8ec686220ff131',
+    id: '5e8882eb5f8ec686220ff138',
     allDay: true,
     color: EVENT_COLORS[0],
     description: 'Discuss about new partnership',
