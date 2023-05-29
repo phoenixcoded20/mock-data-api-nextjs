@@ -1,5 +1,6 @@
 [
   { "id": "5e86809283e28b96d2d38537", "email": "info@codedthemes.com", "password": "123456", "name": "JWT User" },
+  { "id": "5e87809273e28b96d2e38538", "email": "info@phoenixcoded.co", "password": "123456", "name": "JWT User" },
   { "id": "344353656373", "email": "milanbhikadiya22@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
   { "id": "61d81b3d", "email": "milanbhikadiya@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
   { "id": "774598e0", "email": "test@test.com", "password": "Test1234", "name": "New Test" },
