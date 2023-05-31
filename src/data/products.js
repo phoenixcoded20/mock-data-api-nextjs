@@ -74,7 +74,7 @@ export const products = [
     image: 'prod-4.png',
     name: 'Luxury Watches Centrix Gold',
     brand: 'Centrix',
-    offer: '30%',
+    offer: '20%',
     description: '7655 Couple (Refurbished)...',
     about: 'This product from Centrix is a classic choice who love classical products. It it made of pure gold and weighs around 50 grams',
     quantity: 3,
@@ -119,7 +119,7 @@ export const products = [
     image: 'prod-6.png',
     name: 'Apple iPhone 13 Mini ',
     brand: 'Apple',
-    offer: '30%',
+    offer: '70%',
     description: '13 cm (5.4-inch) Super',
     about:
       'It fits for those who love photography since it has 48MP camera which shoots great photos even in low light. Also it has 8GB of RAm and 4000MAH battery which can last upto 12 hours a day ',

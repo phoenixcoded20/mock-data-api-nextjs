@@ -33,11 +33,18 @@ export default async function handler(req, res) {
     let searchMatches = true;
 
     if (filter.search) {
-      const properties = ['name', 'description', 'rating', 'salePrice', 'offerPrice', 'gender'];
+      const propertiesString = ['name', 'brand', 'offer'];
+      const propertiesNumberic = ['rating', 'salePrice', 'offerPrice'];
       let containsQuery = false;
 
-      properties.forEach((property) => {
-        if (product[property].toString().toLowerCase().includes(filter.search.toString().toLowerCase())) {
+      propertiesString.forEach((property) => {
+        if (product[property] && product[property].toString().toLowerCase().includes(filter.search.toString().toLowerCase())) {
+          containsQuery = true;
+        }
+      });
+
+      propertiesNumberic.forEach((property) => {
+        if (product[property] && Number(product[property]) === Number(filter.search)) {
           containsQuery = true;
         }
       });

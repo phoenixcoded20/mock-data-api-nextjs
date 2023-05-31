@@ -1,5 +1,6 @@
 import { sub } from 'date-fns';
 import { Chance } from 'chance';
+import cors from 'utils/cors';
 
 const chance = new Chance();
 
@@ -39,6 +40,7 @@ const productReviews = [
   }
 ];
 
-export default function handler(req, res) {
-  res.status(200).json({ productReviews });
+export default async function handler(req, res) {
+  await cors(req, res);
+  return res.status(200).json({ productReviews });
 }
