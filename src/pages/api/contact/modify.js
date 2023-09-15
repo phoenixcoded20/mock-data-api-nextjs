@@ -1,6 +1,5 @@
 import contacts from 'data/contact.json';
 import cors from 'utils/cors';
-import fs from 'fs';
 
 export default async function handler(req, res) {
   await cors(req, res);

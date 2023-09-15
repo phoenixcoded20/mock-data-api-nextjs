@@ -1,5 +1,4 @@
 import addressList from 'data/address.json';
-import fs from 'fs';
 import cors from 'utils/cors';
 
 export default async function handler(req, res) {

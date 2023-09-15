@@ -1,7 +1,6 @@
 import cors from 'utils/cors';
 import { v4 as UIDV4 } from 'uuid';
 import addressList from 'data/address.json';
-import fs from 'fs';
 
 export default async function handler(req, res) {
   await cors(req, res);
