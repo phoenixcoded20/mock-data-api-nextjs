@@ -1,6 +1,5 @@
 import cors from 'utils/cors';
 import posts from 'data/posts.json';
-import fs from 'fs';
 
 export default async function handler(req, res) {
   await cors(req, res);

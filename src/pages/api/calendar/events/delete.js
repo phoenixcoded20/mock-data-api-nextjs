@@ -1,6 +1,5 @@
 import calendarEvents from 'data/calendar';
 import cors from 'utils/cors';
-import fs from 'fs';
 import _ from 'lodash';
 
 export default async function handler(req, res) {

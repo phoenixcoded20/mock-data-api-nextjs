@@ -1,19 +1,22 @@
 [
-    {
-        "id": "column-1",
-        "title": "New",
-        "itemIds": ["3542", "8903", "1381"]
-    }, {
-        "id": "column-2",
-        "title": "Active",
-        "itemIds": ["6739", "3950", "6924"]
-    }, {
-        "id": "column-3",
-        "title": "Resolved",
-        "itemIds": ["4398"]
-    }, {
-        "id": "column-4",
-        "title": "Closed",
-        "itemIds": ["9589", "3410", "8679"]
-    }
+  {
+    "id": "column-1",
+    "title": "New",
+    "itemIds": ["3542", "8903", "1381"]
+  },
+  {
+    "id": "column-2",
+    "title": "Active",
+    "itemIds": ["6739", "3950", "6924"]
+  },
+  {
+    "id": "column-3",
+    "title": "Resolved",
+    "itemIds": ["4398"]
+  },
+  {
+    "id": "column-4",
+    "title": "Closed",
+    "itemIds": ["9589", "3410", "8679"]
+  }
 ]
