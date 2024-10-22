@@ -1,8 +1,10 @@
 [
-  { "id": "5e86809283e28b96d2d38537", "email": "info@codedthemes.com", "password": "123456", "name": "JWT User" },
-  { "id": "5e87809273e28b96d2e38538", "email": "info@phoenixcoded.co", "password": "123456", "name": "JWT User" },
-  { "id": "344353656373", "email": "milanbhikadiya22@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
-  { "id": "61d81b3d", "email": "milanbhikadiya@gmail.com", "password": "123456", "name": "Milan Bhikadiya" },
-  { "id": "774598e0", "email": "test@test.com", "password": "Test1234", "name": "New Test" },
-  { "id": "9571bb3a", "email": "amit@phoenixcoded.co", "password": "aA@123456", "name": "Amit Gorasiya" }
+  { "id": "5e86809283e28b96d2d38537", "email": "info@codedthemes.com", "password": "123456", "name": "JWT User", "role": "Admin" },
+  { "id": "5e87809273e28b96d2e38538", "email": "info@phoenixcoded.co", "password": "123456", "name": "JWT User", "role": "Admin" },
+  { "id": "344353656373", "email": "milanbhikadiya22@gmail.com", "password": "123456", "name": "Milan Bhikadiya", "role": "Admin" },
+  { "id": "61d81b3d", "email": "milanbhikadiya@gmail.com", "password": "123456", "name": "Milan Bhikadiya", "role": "Admin" },
+  { "id": "774598e0", "email": "test@test.com", "password": "Test1234", "name": "New Test", "role": "Admin" },
+  { "id": "9571bb3a", "email": "amit@phoenixcoded.co", "password": "aA@123456", "name": "Amit Gorasiya", "role": "Admin" },
+  { "id": "5648ww9g", "email": "admin@gmail.com", "password": "Admin@123", "name": "Admin User", "role": "Admin" },
+  { "id": "9654cc9d", "email": "user@gmail.com", "password": "User@123", "name": "John Challis", "role": "User" }
 ]

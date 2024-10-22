@@ -23,7 +23,8 @@ export default async function handler(req, res) {
     id,
     email,
     password,
-    name: `${firstName} ${lastName}`
+    name: `${firstName} ${lastName}`,
+    role: 'User'
   };
 
   users.push(user);
