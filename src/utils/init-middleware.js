@@ -1,5 +1,5 @@
 // project imports
-import { JWT_API } from 'config';
+import { AUTHENTICATION_REQUIRED, JWT_API } from 'config';
 import { verify } from 'jsonwebtoken';
 import users from 'data/users.json';
 
@@ -9,13 +9,13 @@ const JWT_SECRET = JWT_API.secret;
 // Helper method to wait for a middleware to execute before continuing
 // And to throw an error when an error happens in a middleware
 export default function initMiddleware(middleware) {
-  return (req, res, NO_AUTHENTICATION_REQUIRED = false) =>
+  return (req, res, validateToken = AUTHENTICATION_REQUIRED) =>
     new Promise((resolve, reject) => {
       middleware(req, res, (result) => {
         if (result instanceof Error) {
           return reject(result);
         }
-        if (!NO_AUTHENTICATION_REQUIRED) {
+        if (validateToken) {
           const { authorization } = req.headers;
           if (!authorization) {
             return res.status(401).json({ message: 'Token Missing' });

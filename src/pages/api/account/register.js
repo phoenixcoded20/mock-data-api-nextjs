@@ -1,10 +1,9 @@
 import cors from 'utils/cors';
 import users from 'data/users.json';
 import { messages } from 'utils';
-import { NO_AUTHENTICATION_REQUIRED } from 'config';
 
 export default async function handler(req, res) {
-  await cors(req, res, NO_AUTHENTICATION_REQUIRED);
+  await cors(req, res, false);
   const { id, email, password, firstName, lastName } = req.body;
   if (!email || !password) {
     return res.status(400).json({ message: messages.errorMessages.enterEmailAndPassword });

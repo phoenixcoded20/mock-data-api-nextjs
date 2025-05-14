@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { JWT_API, NO_AUTHENTICATION_REQUIRED } from 'config';
+import { JWT_API } from 'config';
 import cors from 'utils/cors';
 import users from 'data/users.json';
 import { messages } from 'utils';
@@ -9,7 +9,7 @@ const JWT_SECRET = JWT_API.secret;
 const JWT_EXPIRES_TIME = JWT_API.timeout;
 
 export default async function handler(req, res) {
-  await cors(req, res, NO_AUTHENTICATION_REQUIRED);
+  await cors(req, res, false);
   const { email, password } = req.body;
   const user = users.find((_user) => _user.email === email);
 

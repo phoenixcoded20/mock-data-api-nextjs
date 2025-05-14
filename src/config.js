@@ -3,4 +3,4 @@ export const JWT_API = {
   timeout: '1 days'
 };
 
-export const NO_AUTHENTICATION_REQUIRED = true;
+export const AUTHENTICATION_REQUIRED = false;

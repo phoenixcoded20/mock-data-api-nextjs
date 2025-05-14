@@ -1,5 +1,5 @@
 // project imports
-import { JWT_API, NO_AUTHENTICATION_REQUIRED } from 'config';
+import { JWT_API } from 'config';
 import cors from 'utils/cors';
 import { verify } from 'jsonwebtoken';
 import users from 'data/users.json';
@@ -8,7 +8,7 @@ import users from 'data/users.json';
 const JWT_SECRET = JWT_API.secret;
 
 export default async function handler(req, res) {
-  await cors(req, res, NO_AUTHENTICATION_REQUIRED);
+  await cors(req, res);
   const { authorization } = req.headers;
   if (!authorization) {
     return res.status(401).json({ message: 'Token Missing' });
