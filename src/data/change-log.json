@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "version": "v3.5.1",
+    "date": "23 Aug, 2025",
+    "chip": { "label": "Updated", "color": "success", "variant": "light" },
+    "title": "Smarter Assets. Smoother workflow.",
+    "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
+    "features": [
+      "Unified Search: Browse by type, theme, or prompt tags — all in one place",
+      "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
+      "Live Preview: See animated models in motion before adding them",
+      "Favorites & History: Quickly find what you used or loved before",
+      "Optimized for AI Prompts"
+    ],
+    "banner": "/images/change-log/change-log.png",
+    "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed."
+  },
+  {
+    "id": 2,
+    "version": "v3.5.0",
+    "date": "15 Aug, 2025",
+    "title": "Introducing AI-Powered 3D Creation",
+    "description": "Create stunning 3D assets in seconds with our new AI-powered tools. Simply describe what you want, and watch it come to life.",
+    "features": [
+      "Text-to-3D: Generate detailed 3D models from simple text prompts",
+      "AI-Assisted Animation: Automatically rig and animate your models with ease",
+      "Smart Texturing: Apply realistic textures and materials using AI suggestions",
+      "Voice Commands: Create and modify assets using natural language voice commands"
+    ],
+    "banner": "/images/change-log/ai-3d-creation.png",
+    "conclusion": "Experience the future of 3D creation with our cutting-edge AI tools, designed to boost your creativity and productivity."
+  },
+  {
+    "id": 3,
+    "version": "v3.4.0",
+    "date": "10 July, 2025",
+    "title": "Enhanced Collaboration Features",
+    "description": "Work together seamlessly with our new collaboration tools, making team projects easier than ever.",
+    "features": [
+      "Real-Time Co-Editing: Collaborate on projects simultaneously with team members",
+      "Commenting & Annotations: Leave feedback directly on the 3D models",
+      "Version History: Track changes and revert to previous versions easily",
+      "Shared Libraries: Access and share assets across your team"
+    ],
+    "banner": "/images/change-log/collaboration.png",
+    "conclusion": "Our enhanced collaboration features are designed to streamline teamwork and improve project outcomes."
+  }
+]
