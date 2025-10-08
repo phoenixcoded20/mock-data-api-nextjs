@@ -3,7 +3,6 @@
     "id": 1,
     "version": "v3.5.1",
     "date": "19 July, 2025",
-    "chip": { "label": "Updated", "color": "success", "variant": "light" },
     "title": "Smarter Assets. Smoother workflow.",
     "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
     "features": [
@@ -20,7 +19,6 @@
     "id": 2,
     "version": "v3.5.0",
     "date": "01 May, 2025",
-    "chip": { "label": "Updated", "color": "success", "variant": "light" },
     "title": "Introducing AI-Powered 3D Creation",
     "description": "Create stunning 3D assets in seconds with our new AI-powered tools. Simply describe what you want, and watch it come to life.",
     "features": [
@@ -36,7 +34,6 @@
     "id": 3,
     "version": "v3.4.0",
     "date": "26 Feb, 2025",
-    "chip": { "label": "Updated", "color": "success", "variant": "light" },
     "title": "Enhanced Collaboration Features",
     "description": "Work together seamlessly with our new collaboration tools, making team projects easier than ever.",
     "features": [
