@@ -1,16 +1,15 @@
 [
   {
     "id": 1,
-    "version": "v3.5.1",
-    "date": "19 July, 2025",
-    "title": "Smarter Assets. Smoother workflow.",
-    "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
+    "version": "v3.4.0",
+    "date": "26 Feb, 2025",
+    "title": "Enhanced Collaboration Features",
+    "description": "Work together seamlessly with our new collaboration tools, making team projects easier than ever.",
     "features": [
-      "Unified Search: Browse by type, theme, or prompt tags — all in one place",
-      "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
-      "Live Preview: See animated models in motion before adding them",
-      "Favorites & History: Quickly find what you used or loved before",
-      "Optimized for AI Prompts"
+      "Real-Time Co-Editing: Collaborate on projects simultaneously with team members",
+      "Commenting & Annotations: Leave feedback directly on the 3D models",
+      "Version History: Track changes and revert to previous versions easily",
+      "Shared Libraries: Access and share assets across your team"
     ],
     "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
     "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
@@ -32,15 +31,16 @@
   },
   {
     "id": 3,
-    "version": "v3.4.0",
-    "date": "26 Feb, 2025",
-    "title": "Enhanced Collaboration Features",
-    "description": "Work together seamlessly with our new collaboration tools, making team projects easier than ever.",
+    "version": "v3.5.1",
+    "date": "19 July, 2025",
+    "title": "Smarter Assets. Smoother workflow.",
+    "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
     "features": [
-      "Real-Time Co-Editing: Collaborate on projects simultaneously with team members",
-      "Commenting & Annotations: Leave feedback directly on the 3D models",
-      "Version History: Track changes and revert to previous versions easily",
-      "Shared Libraries: Access and share assets across your team"
+      "Unified Search: Browse by type, theme, or prompt tags — all in one place",
+      "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
+      "Live Preview: See animated models in motion before adding them",
+      "Favorites & History: Quickly find what you used or loved before",
+      "Optimized for AI Prompts"
     ],
     "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
     "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
