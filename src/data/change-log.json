@@ -1,48 +1,414 @@
-[
-  {
-    "id": 1,
-    "version": "v3.4.0",
-    "date": "26 Feb, 2025",
-    "title": "Enhanced Collaboration Features",
-    "description": "Work together seamlessly with our new collaboration tools, making team projects easier than ever.",
-    "features": [
-      "Real-Time Co-Editing: Collaborate on projects simultaneously with team members",
-      "Commenting & Annotations: Leave feedback directly on the 3D models",
-      "Version History: Track changes and revert to previous versions easily",
-      "Shared Libraries: Access and share assets across your team"
-    ],
-    "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
-    "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
-  },
-  {
-    "id": 2,
-    "version": "v3.5.0",
-    "date": "01 May, 2025",
-    "title": "Introducing AI-Powered 3D Creation",
-    "description": "Create stunning 3D assets in seconds with our new AI-powered tools. Simply describe what you want, and watch it come to life.",
-    "features": [
-      "Text-to-3D: Generate detailed 3D models from simple text prompts",
-      "AI-Assisted Animation: Automatically rig and animate your models with ease",
-      "Smart Texturing: Apply realistic textures and materials using AI suggestions",
-      "Voice Commands: Create and modify assets using natural language voice commands"
-    ],
-    "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
-    "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
-  },
-  {
-    "id": 3,
-    "version": "v3.5.1",
-    "date": "19 July, 2025",
-    "title": "Smarter Assets. Smoother workflow.",
-    "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
-    "features": [
-      "Unified Search: Browse by type, theme, or prompt tags — all in one place",
-      "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
-      "Live Preview: See animated models in motion before adding them",
-      "Favorites & History: Quickly find what you used or loved before",
-      "Optimized for AI Prompts"
-    ],
-    "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
-    "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
-  }
-]
+{
+  "mantis": [
+    {
+      "id": 1,
+      "version": "v1.0.0",
+      "date": "27 May, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "Initial Release",
+        "JavaScript/TypeScript package with full preview, Skeleton, and Seed versions."
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 2,
+      "version": "v1.1.0",
+      "date": "21 June, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "New Features": [
+            "Next JS (Added on July 5, 2022)",
+            "Slider Component",
+            "Modal Component",
+            "Fab button Component",
+            "Forms (Wizards, Layouts, Plugins, Validations)",
+            "Charts (Apex, Organisation)",
+            "Provided alert on password capslock",
+            "User Pages (Lists and Cards)",
+            "DropZone",
+            "Widgets (Data, Statistics, and Chart)",
+            "Added Role tab in Account Profile",
+            "Added footer in dashboard"
+          ]
+        },
+        {
+          "Improvement/Fixes": [
+            "Resolve the flickering issue on landing. A footer was rendered first then the header, this is fixed.",
+            "Added missing keyboard focus for usability. Thanks to Olivier for bringing this up."
+          ]
+        },
+        "Package upgrades",
+        "Other minor improvements",
+        "Figma updates as per new features",
+        "Both Next.js JavaScript and TypeScript versions were added to the package."
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 3,
+      "version": "v1.2.0",
+      "date": "17 Nov, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "Support React 18",
+        "Added Kanban App",
+        "Remove the Skeleton from the Package",
+        "Packages upgrades",
+        "SVG file updates due to React 18",
+        "Removed .default from the end wherever the image has been used",
+        "Added config-override.js to support native node module in react 18"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 4,
+      "version": "v2.0.0",
+      "date": "21 Feb, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Invoice generator",
+        "Export to CSV on Most react-table",
+        {
+          "Export to PDF": ["User Card", "Invoice"]
+        },
+        "Menu expandable with page.",
+        "Menu Layout - Horizontal",
+        {
+          "Components": [
+            "Tabs - Scrollable tab variant",
+            "Avatar - Group Avatar Hover",
+            "Progress - Background path for circular",
+            "Tooltip - Color Tooltip",
+            "Google Auto-Complete",
+            "SnackBar - Added stacked snackbar",
+            "Date Range Picker"
+          ]
+        },
+        {
+          "React Table": [
+            "Editable table with validation",
+            "Resize Column",
+            "Sticky header",
+            "Empty - no data table",
+            "Type updates"
+          ]
+        },
+        "Animations added on dialogs, popper, and landing",
+        "The welcome image on First Dashboard",
+        {
+          "Customer": [
+            "move from profile to customer-> Card, List",
+            "Added sorting and filtering"
+          ]
+        },
+        "Login - After logging in, the user should be automatically forwarded to the called link",
+        "Forgot the password to aws",
+        "Render menu from the backend",
+        "Auth keys moved from config to .env",
+        {
+          "Bug Fixes": [
+            "Multiple menus are active",
+            "E-commerce product list issue",
+            "Breadcrumb",
+            "RTL issue organization chart"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 5,
+      "version": "v2.1.0",
+      "date": "17 May, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Update to Next.js 13 (Without App Directory)": [
+            "App directory will be provided in upcoming releases"
+          ]
+        },
+        "Other packages upgrades",
+        "Remove Mock API and use Live but Fake API",
+        "Set Default Auth as JWT",
+        ".env updates",
+        {
+          "React table": [
+            "Added virtual data loading",
+            "Added infinite scroll",
+            "Group chip in the group table"
+          ]
+        },
+        {
+          "Bug Fixes": [
+            "Fix some dark and RTL issues",
+            "Resolve active menu issue",
+            "Landing design fixes",
+            "Fix the Google autocomplete issue",
+            "React table fixes in the umbrella page"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 6,
+      "version": "v3.0.0",
+      "date": "24 Oct, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Add Support for App directory in Next.js",
+        "Removed redux and Added SWR",
+        "Migrate to react table v8",
+        "Added Dense table",
+        "Use NPM fonts",
+        "Added Full screen toggle",
+        "Map",
+        "CRA route updates with Error Boundary and Loader",
+        "Added Custom breadcrumb component",
+        "Stops collapsing menu on large media for Apps",
+        {
+          "Menu updates": [
+            "Set item without group - See Sample Page",
+            "Set external link in menu - See Calendar Menu",
+            "Set Dropdown in menu - See Maintenance Menu",
+            "Set pop up - See Customer -> List Menu",
+            {
+              "Horizontal menu updates": [
+                "Set a simple page as a clickable item",
+                "Set line separator for without group items",
+                "Fixed breadcrumb for clickable item (without group items)"
+              ]
+            }
+          ]
+        },
+        "Set State for Customer App",
+        "Removed auto verification from AWS auth",
+        "Package upgrades",
+        "Bug Fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 7,
+      "version": "v3.1.0",
+      "date": "04 Nov, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Migrate to vite": ["Image path updates"]
+        },
+        {
+          "Bug Fix": [
+            "Infinite loading issue after login",
+            "RTL issue in react-table"
+          ]
+        },
+        "Improve active menu using matchPath"
+      ],
+      "banner": "",
+      "conclusion": "Note: Excitingly, this release introduces significant updates to the Vite and Next.js packages, with the React-script package remaining stable at version 3.0.0."
+    },
+    {
+      "id": 8,
+      "version": "v3.1.1",
+      "date": "21 Dec, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Removed getServerSideProps() for next-auth in Next.js",
+        "No updates in Vite Packages"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 9,
+      "version": "v3.2.0",
+      "date": "06 Apr, 2024",
+      "title": "",
+      "description": "",
+      "features": [
+        "Package upgrades",
+        "Set yarn v4",
+        {
+          "Improved 'use client' in next JS": [
+            "Try removing from possible components",
+            "Separate component to use 'use client'",
+            "Removed unused useTheme",
+            "Removed unused styled component"
+          ]
+        },
+        "Removed unused component=\"div\" and component=\"span\"",
+        "Removed unused align=\"left\" as its default",
+        "Image path updates for VITE",
+        "Change the arrow/const function to the JavaScript function for Hoisting in components",
+        {
+          "Import updates for performance": [
+            "MUI components",
+            "Ant icons",
+            "Apexchart"
+          ]
+        },
+        {
+          "Bug fixes": [
+            "next-auth route",
+            "Use consistent - bgcolor / backgroundColor / background",
+            "Virtualized react-table scroll issue",
+            "Apexchart legend issue on RTL mode"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 10,
+      "version": "v3.3.0",
+      "date": "09 Sep, 2024",
+      "title": "",
+      "description": "",
+      "features": [
+        "Authentication structure change and improvement",
+        "Added Supabase",
+        "MUI X Charts",
+        "Package upgrade",
+        "Added Invoice dashboard",
+        "Menu (vertical & Horizontal)",
+        "Bug fixes",
+        "Customizer",
+        "Seed bug fixes",
+        "Other bug fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 11,
+      "version": "v3.4.0",
+      "date": "26 Feb, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Upgrades & Dependency Changes": [
+            "Upgraded to Material UI v6",
+            "Upgraded to React Router v7",
+            "Upgraded to Nextjs v15",
+            "Upgraded to ESLint v9",
+            "Upgraded TypeScript v5 (minor version)",
+            "Updated another package to its latest version",
+            "Replaced lodash with lodash-es dependencies",
+            "Added React Quill as a dynamic component and replaced react-quill with react-quill-new",
+            "Removed MUI Loading Button"
+          ]
+        },
+        {
+          "New Features & Improvements": [
+            "Added Matrix component for Analytics, gtag, etc",
+            "Restructured Multi-language Menu Items code",
+            "Themed ApexCharts",
+            "Improved Landing Content",
+            "Enhanced Breadcrumb Parent Item",
+            "Refactored React Table with TypeScript"
+          ]
+        },
+        {
+          "Bug Fixes": [
+            {
+              "Menu": [
+                "Fixed Nested level menu collapsed issue on levels more than 3",
+                "Fixed collapsed hover color on a visit",
+                "Fixed Mini-menu collapsed icon direction change from up arrow to right arrow"
+              ]
+            },
+            "Various fixes and optimizations"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 12,
+      "version": "v3.5.0",
+      "date": "01 May, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "React v19 upgrades": [
+            "useTransition action",
+            "useDeferredValue hook",
+            "useAPI hook",
+            "<Context> as a provider",
+            "ref as a prop"
+          ]
+        },
+        "Material UI v7 package upgrades",
+        "Other Package upgrades",
+        "Use alternative libraries that are compatible with React 19.",
+        "Set Yarn version to v4.9.1",
+        "Bug fixes",
+        {
+          "Figma updates": [
+            "Change in Primary color to match the live preview",
+            "Fix colors in variables and assign them to color styles"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 13,
+      "version": "v3.5.1",
+      "date": "19 July, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        "Package upgrades",
+        "Figma updates (v2.1.4)",
+        "Prefetch routes & Google Fonts for better performance",
+        "Optimized TanStack Table implementation",
+        "Improved MUI components using slotProps",
+        "Fixed theme mode & direction toggle issue in customization",
+        "Minor issues fixed"
+      ],
+      "banner": "",
+      "conclusion": ""
+    }
+  ],
+  "berry": [
+    {
+      "id": 1,
+      "version": "v5.0.0",
+      "date": "19 July, 2025",
+      "title": "Smarter Assets. Smoother workflow.",
+      "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
+      "features": [
+        "Unified Search: Browse by type, theme, or prompt tags — all in one place",
+        "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
+        "Live Preview: See animated models in motion before adding them",
+        "Favorites & History: Quickly find what you used or loved before",
+        "Optimized for AI Prompts"
+      ],
+      "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
+      "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
+    }
+  ]
+}
