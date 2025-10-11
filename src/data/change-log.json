@@ -78,7 +78,10 @@
         "Invoice generator",
         "Export to CSV on Most react-table",
         {
-          "Export to PDF": ["User Card", "Invoice"]
+          "Export to PDF": [
+            "User Card",
+            "Invoice"
+          ]
         },
         "Menu expandable with page.",
         "Menu Layout - Horizontal",
@@ -210,7 +213,9 @@
       "description": "",
       "features": [
         {
-          "Migrate to vite": ["Image path updates"]
+          "Migrate to vite": [
+            "Image path updates"
+          ]
         },
         {
           "Bug Fix": [
@@ -396,19 +401,601 @@
   "berry": [
     {
       "id": 1,
-      "version": "v5.0.0",
-      "date": "19 July, 2025",
-      "title": "Smarter Assets. Smoother workflow.",
-      "description": "The new 3D Library update gives creators instant access to a richer, smarter library of AI-ready assets...",
+      "version": "v1.0.0",
+      "date": "21 May, 2021",
+      "title": "",
+      "description": "",
       "features": [
-        "Unified Search: Browse by type, theme, or prompt tags — all in one place",
-        "Smart Categories: Characters, Environments, Props, Animations, and FX — now neatly grouped",
-        "Live Preview: See animated models in motion before adding them",
-        "Favorites & History: Quickly find what you used or loved before",
-        "Optimized for AI Prompts"
+        "Initial release"
       ],
-      "banner": "https://fastly.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI",
-      "conclusion": "This is part of our continued effort to make 3D creation intuitive and fun, powered by AI and designed for speed. Dive in and explore what’s new — your creative toolbox just leveled up."
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 2,
+      "version": "v1.1.0",
+      "date": "28 May, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "More closer to the single responsibility model",
+        "Add propTypes declaration for components which helps in the development",
+        "Set Prettier formatting property \"bracketSpacing\" as true for better readability",
+        "Code clean up and minor bug fixes",
+        "File Restructured for better code understanding",
+        "Code commenting and documentation"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 3,
+      "version": "v1.2.0",
+      "date": "12 Jun, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "Add Form layouts",
+        "Add Form with validations",
+        "Add Form wizards",
+        "Add a Grid documentation page",
+        "Add animation and shadows",
+        "Add 6 new color options",
+        "Change variable names for colors",
+        "Fix authentication responsive issues",
+        "Fix checkbox issues in \"Table Enhanced\"",
+        "Restructure pricing page for better code",
+        "Set 404 error page redirection",
+        "Improve mail & chat app with a drawer",
+        "Documentation update to integrate Berry in a new project",
+        "Add video tutorial in the documentation",
+        "Other minor fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 4,
+      "version": "v1.2.1",
+      "date": "07 Jul, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "TypeScript release (Standard Plus package)"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 5,
+      "version": "v2.0.0",
+      "date": "04 Aug, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "Upgrade to Material UI Beta: 5.0.0-beta.1",
+        "Upgrade to react-router: 6.0.0-beta.0",
+        "E-Commerce App",
+        "Enforce Eslint Rules",
+        "Absolute imports",
+        "Remove package \"react-material-UI-carousel\" due to no support in MUI Beta. Achieved same using \"slick-carousel\"",
+        "Other minor improvements & fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 6,
+      "version": "v3.0.0",
+      "date": "21 Oct, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "Upgrade to MUI v5.0.4",
+        "Next.js TypeScript version (released on 31-10-2021).",
+        "Upgrade to react-router: 6.0.0-beta.5",
+        "Add Kanban Full Featured App",
+        "Simplified Authentication Flow",
+        "Improvement in Styling and Documentation",
+        "Figma Design File - Add Kanban app",
+        "Added new videos in the Berry Tutorial Series"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 7,
+      "version": "v3.0.2",
+      "date": "05 Nov, 2021",
+      "title": "",
+      "description": "",
+      "features": [
+        "Minor fixes in JavaScript package.",
+        "No changes in TypeScript & Next.js package."
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 8,
+      "version": "v3.1.0",
+      "date": "22 Feb, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "Organization Chart",
+        "Redux toolkit",
+        "AWS Cognito login",
+        "Mega Menu",
+        "Container Layout (click on live customizer->Box Container to test effect)",
+        "Add invoice page",
+        "SAAS pages like - Privacy Policy and FAQ",
+        "Image upload in kanban",
+        "Performance Enhancement",
+        "Package upgrades",
+        "Fix most possible security vulnerabilities",
+        "Client suggestions and Bug Fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 9,
+      "version": "v3.1.1",
+      "date": "25 Mar, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "Next.js full version for TypeScript and JavaScript"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 10,
+      "version": "v3.1.2",
+      "date": "30 May, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Bug Fixes (Common)": [
+            "Fix Issue in Mozilla with rem. Converted rem to px. wherever applicable",
+            {
+              "Calendar - Hide Week and Month view in Mobile Media": [
+                "src/views/application/calendar/Toolbar.tsx",
+                "src/views/application/calendar/index.tsx"
+              ]
+            },
+            {
+              "ECommerce": [
+                {
+                  "Fix the issue with the opening previous image when clicking on the detail": [
+                    "src/menu-items/application.tsx",
+                    "src/views/application/e-commerce/ProductDetails/ProductImages.tsx",
+                    "src/views/application/e-commerce/ProductDetails/index.tsx"
+                  ]
+                },
+                {
+                  "Remove the Rating keyword when searching with a string": [
+                    "src/views/application/e-commerce/Products/ProductFilterView.tsx"
+                  ]
+                },
+                {
+                  "Set Menu highlighted when browser back": [
+                    "src/layout/MainLayout/Sidebar/MenuList/NavItem/index.tsx",
+                    "src/store/slices/menu.ts",
+                    "src/types/menu.ts"
+                  ]
+                },
+                {
+                  "Fix menu collapse issue having sub-menus": [
+                    "src/layout/MainLayout/Sidebar/MenuList/NavCollapse/index.tsx"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Bug Fixes - Next JS (Specifically)": [
+            "Fix flickering issue in next js. When a user came to the dashboard directly, it shows the dashboard initially and then navigates to the login. This is fixed",
+            "src/utils/route-guard/AuthGuard.ts",
+            "src/utils/route-guard/GuestGuard.ts"
+          ]
+        },
+        "Provided Seed version",
+        "Package upgrades"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 11,
+      "version": "v3.1.3",
+      "date": "18 Aug, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Changes in Nextjs versions only": [
+            "Added missing Create invoice page",
+            "Make changes to the Layout"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 12,
+      "version": "v3.2.0",
+      "date": "10 Oct, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "React 18 upgrade",
+        "Horizontal and Compact menu layout options",
+        "Create a constant file for commonly used strings",
+        "Other minor package upgrades",
+        "SVG file updates due to React 18",
+        "Removed .default from the end wherever the image has been used",
+        "Added config-override.js to support native node module in react 18",
+        "Removed Skeleton version",
+        "Some miscellaneous code improvements"
+      ],
+      "banner": "",
+      "conclusion": "Migration to React 18 and other packages"
+    },
+    {
+      "id": 13,
+      "version": "v3.2.1",
+      "date": "06 Nov, 2022",
+      "title": "",
+      "description": "",
+      "features": [
+        "Removed @mui/styles package",
+        "Replaced react-otp-input-rc-17 with react18-input-otp",
+        "Replaced react-currency-format with currency.js"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 14,
+      "version": "v3.3.0",
+      "date": "19 Jan, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "New Landing",
+        "CSV Export",
+        "Render Dashboard menu using API",
+        "Added autocomplete form with validation",
+        {
+          "Packages updates": [
+            "Removed react-images",
+            "Removed MUI-Style",
+            "Updated packages to the latest"
+          ]
+        },
+        "Update minor design aesthetics",
+        "Bug Fixes"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 15,
+      "version": "v3.4.0",
+      "date": "10 Apr, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Removed Mock API and use Dummy API call via Real Server",
+        "Update to Next JS 13 (Without App Directory)",
+        "WCAG Updates",
+        "Set Default Auth as JWT",
+        ".env File updates",
+        "Minimal Remix React Version Limited Support",
+        "Added password reset for Cognito auth",
+        {
+          "Bug Fixes": [
+            "Landing Section fix for mobile view",
+            "Iphone issue - The user needs to click twice",
+            "Chat app - emoji issue in mobile"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 16,
+      "version": "v3.5.0",
+      "date": "12 May, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Replaced react-beautiful-dnd with @hello-pangea/dnd to avoid --legacy-peer-deps while npm install"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 17,
+      "version": "v3.6.0",
+      "date": "23 July, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Set loader for all application pages",
+        "Set notistack notification variants",
+        "Set a parent menu item on horizontal",
+        "Theme customizer re-design",
+        "Set forgot/reset password flow for Firebase and aws cognito",
+        "Remix Package upgrades",
+        {
+          "Bug fixes": [
+            "fixed megamenu application links",
+            "fixed header profile chip color dark mode",
+            "fixed palette color - color grey.600 and grey.900 conflict",
+            "fixed content resize on drawer toggler"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 18,
+      "version": "v3.7.0",
+      "date": "21 Oct, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Next 13 App directory",
+        "Package updates",
+        "Full screen toggle",
+        "Maps",
+        "NPM Font",
+        "Stop menu collapse on large media for Apps",
+        "Remove react-app-rewired"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 19,
+      "version": "v3.8.0",
+      "date": "12 Nov, 2023",
+      "title": "",
+      "description": "",
+      "features": [
+        "Added MUI Grid data table variants",
+        "Migrate to Vite",
+        "Next JS 14 update",
+        "Package upgrades",
+        "Set demo for react router error boundary and loader",
+        {
+          "Bug Fixes": [
+            "Fixed Breadcrumbs",
+            "Fixed megamenu quick links",
+            "Fixed Organization chart RTL"
+          ]
+        },
+        "Support Node 20"
+      ],
+      "banner": "",
+      "conclusion": "Note: Excitingly, this release introduces significant updates to the Vite and Next.js packages, with the React-script package remaining stable at version 3.7.0."
+    },
+    {
+      "id": 20,
+      "version": "v3.9.0",
+      "date": "27 Feb, 2024",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Added": [
+            "Invoice App",
+            "CRM App",
+            "500 error pages",
+            "Dropzone plugin (used with kanban)",
+            "Custom breadcrumb"
+          ]
+        },
+        "Set menu with SWR instead of redux store",
+        "Use matchPath for the active menu",
+        "Fixed config enum",
+        {
+          "Bug fixes": [
+            "Default scroll color scheme (dark mode)",
+            "Horizontal menu simple page active",
+            "Collapsed menu active issue"
+          ]
+        },
+        {
+          "Code optimization": [
+            "Removed // eslint-disabled-next-line",
+            "Fixed useTheme and styled uses",
+            "Fixed mui/icons import"
+          ]
+        },
+        {
+          "Figma Updates/Improvements": [
+            "Color Variables",
+            "Auto layouts",
+            "Responsive screens",
+            "Dark Mode"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 21,
+      "version": "v3.9.1",
+      "date": "24 June, 2024",
+      "title": "",
+      "description": "",
+      "features": [
+        "Added missing auth files for NextJS",
+        {
+          "Documentation updates": [
+            "Enhanced Documentation: Made overall improvements for better clarity.",
+            "Reorganized Sections: Grouped related content logically.",
+            "Mock Backend Guide: Added instructions for using the mock backend.",
+            "Licensing Guide: Provided details on licensing.",
+            "Streamlined Authentication Docs: Split into clearer sections.",
+            {
+              "Improved Routing Documentation: Enhanced routing instructions.": [
+                "Set Login as Default Page: Login page now loads first.",
+                "Skipping Login: Added methods to skip login, temporarily or permanently.",
+                "Menu Loading from Backend: Explained backend menu loading."
+              ]
+            },
+            {
+              "Improved Theming Documentation: Clarified theme usage and updates.": [
+                "Theme Central Updates: Explained central theme updates.",
+                "Preset Management: Detailed preset usage and updates.",
+                "Style Customization: Instructions on modifying color, typography, shadows, and component overrides.",
+                "Theme Layouts: Explained theme layout structures.",
+                "Logo Replacement Guide: Added instructions for updating the logo."
+              ]
+            }
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 22,
+      "version": "v4.0.0",
+      "date": "1 Feb, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Added": [
+            "Invoice Dashboard",
+            "CRM Application",
+            "Blog Application",
+            "supabaseAuth switcher options",
+            "Tooltip on customization options and selection",
+            "New demos for date picker",
+            "Simple layout for SaaS pages"
+          ]
+        },
+        {
+          "Upgrade packages": [
+            "MUI v6",
+            "Eslint v9",
+            "React-router v7",
+            "yarn v4",
+            "Auth0 package change"
+          ]
+        },
+        "Set up yarn corepack",
+        "Menu: Decrease menu item padding and fix menu-level items",
+        "Removed extended Chip, achieved through the component override",
+        {
+          "Bug fixes": [
+            "Alert icons",
+            "Scrollbar issue",
+            "Snack bar (notify) icons",
+            "Framework section (landing)",
+            "Setup type to enum (config)",
+            "Fixed landing page data",
+            "Scrollbar with RTL",
+            "Breadcrumbs alignment and padding",
+            "Radio and checkbox label alignments",
+            "Fixed imports and comments"
+          ]
+        },
+        {
+          "Documentation improvements": [
+            "Route configuration",
+            "Mock server"
+          ]
+        },
+        "Removed Remix version"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 23,
+      "version": "v4.0.1",
+      "date": "04 Mar, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Bug fixes": [
+            "Multi-level menu that collapses for more than three levels.",
+            "Resolved multilanguage issues in the horizontal layout.",
+            "Fixed ApexChart axis colors."
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 24,
+      "version": "v4.0.2",
+      "date": "26 Mar, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        "Bug fix: Tabler icons multiple network request issue.",
+        "Set Yarn version to 4.7.0"
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 25,
+      "version": "v4.1.0",
+      "date": "13 May, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Upgraded & Implemented new React 19 features": [
+            "Used useTransition for managing concurrent UI updates",
+            "Integrated useDeferredValue to optimize the rendering of deferred content",
+            "Updated components to use the new use() API",
+            "Applied <Context> as a provider pattern",
+            "Passed ref as a prop for better interoperability with functional components"
+          ]
+        },
+        "Upgraded Yarn to version 4.9.1",
+        {
+          "Material UI v7 package upgrades": [
+            "@mui/lab → 7.0.0-beta.11",
+            "@mui/icons-material, @mui/material, @mui/utils → 7.0.2"
+          ]
+        },
+        {
+          "MUI X v8 package upgrades": [
+            "@mui/x-data-grid, @mui/x-data-grid-generator, @mui/x-data-grid-pro, @mui/x-date-pickers, @mui/x-tree-view → 8.1.0"
+          ]
+        },
+        "Library replacements for React 19 compatibility:",
+        "Replaced react-copy-to-clipboard with copy-to-clipboard",
+        "Replaced react18-image-lightbox with the updated yet-another-react-lightbox",
+        "Replaced react18-input-otp with react-otp-input",
+        "Removed react-draft-wysiwyg",
+        "Other third-party packages updated to their latest compatible versions",
+        "Implemented alternative libraries where necessary for full React 19 support",
+        "General bug fixes and performance improvements"
+      ],
+      "banner": "",
+      "conclusion": ""
     }
   ]
 }
