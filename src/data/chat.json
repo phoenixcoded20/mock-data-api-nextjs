@@ -11,10 +11,16 @@
     "location": "Port Narcos",
     "avatar": "avatar-1.png",
     "status": "Technical Department",
-    "lastMessage": "2h ago",
+    "lastMessage": "11:30 AM",
+    "latestMessage": {
+      "message": "Yes, I saw it. Working on a fix now. Should be done by EOD.",
+      "time": "3:12 PM",
+      "seen": false
+    },
     "birthdayText": "happy Birthday Alene",
     "unReadChatCount": 2,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": true
   },
   {
     "id": 2,
@@ -28,10 +34,16 @@
     "location": "Afghanistan",
     "avatar": "avatar-2.png",
     "status": "Support Executive",
-    "lastMessage": "1:20 AM",
+    "lastMessage": "10:16 AM",
+    "latestMessage": {
+      "message": "Agreed! Next time, let's try sushi.",
+      "time": "1:31 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Keefe",
     "unReadChatCount": 3,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": false
   },
   {
     "id": 3,
@@ -45,10 +57,16 @@
     "location": "Albania",
     "avatar": "avatar-3.png",
     "status": "Resource Investigator",
-    "lastMessage": "Yesterday",
+    "lastMessage": "9:00 AM",
+    "latestMessage": {
+      "message": "Just uploaded them to the shared drive. Let me know if you need anything else!",
+      "time": "10:16 AM",
+      "seen": false
+    },
     "birthdayText": "happy Birthday Lazaro",
     "unReadChatCount": 1,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": false
   },
   {
     "id": 4,
@@ -62,10 +80,33 @@
     "location": "Algeria",
     "avatar": "avatar-4.png",
     "status": "Teamworker",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "08:36 AM",
+    "latestMessage": {
+      "message": "Thanks! Let me know if you spot any issues.",
+      "time": "5:06 PM",
+      "seen": false
+    },
     "birthdayText": "happy Birthday Hazle",
     "unReadChatCount": 0,
-    "online_status": "do_not_disturb"
+    "online_status": "do_not_disturb",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "name": "Backend Squad",
+    "isGroup": true,
+    "members": ["Agilulf Fuxg", "Adaline Bergfalks", "Eadwulf Beckete", "Midas"],
+    "avatar": "group-backend.png",
+    "status": "API & Database",
+    "lastMessage": "Yesterday",
+    "latestMessage": {
+      "message": "Database migration scheduled for tonight.",
+      "time": "Yesterday",
+      "seen": false
+    },
+    "unReadChatCount": 1,
+    "online_status": "active",
+    "isFavorite": true
   },
   {
     "id": 5,
@@ -79,10 +120,16 @@
     "location": "Andorra",
     "avatar": "avatar-5.png",
     "status": "Co-ordinator",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "Yesterday",
+    "latestMessage": {
+      "message": "Thanks for the heads up! I'll prepare the slides tonight.",
+      "time": "4:01 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Herman",
     "unReadChatCount": 0,
-    "online_status": "do_not_disturb"
+    "online_status": "do_not_disturb",
+    "isFavorite": true
   },
   {
     "id": 6,
@@ -96,10 +143,16 @@
     "location": "Angola",
     "avatar": "avatar-6.png",
     "status": "Monitor Evaluator",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "Yesterday",
+    "latestMessage": {
+      "message": "Just sent it to your email!",
+      "time": "2:21 PM",
+      "seen": false
+    },
     "birthdayText": "happy Birthday Wilhelmine",
     "unReadChatCount": 0,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": false
   },
   {
     "id": 7,
@@ -113,10 +166,16 @@
     "location": "Antigua and Barbuda",
     "avatar": "avatar-7.png",
     "status": "Specialist",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "Yesterday",
+    "latestMessage": {
+      "message": "Awesome, thanks for setting that up!",
+      "time": "6:01 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Agilulf",
     "unReadChatCount": 0,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": false
   },
   {
     "id": 8,
@@ -130,10 +189,16 @@
     "location": "Argentina",
     "avatar": "avatar-6.png",
     "status": "Shaper",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "20 Aug",
+    "latestMessage": {
+      "message": "Great to hear! Let me know if they need more examples.",
+      "time": "11:01 AM",
+      "seen": false
+    },
     "birthdayText": "happy Birthday Adaline",
     "unReadChatCount": 0,
-    "online_status": "offline"
+    "online_status": "offline",
+    "isFavorite": false
   },
   {
     "id": 9,
@@ -147,10 +212,16 @@
     "location": "Armenia",
     "avatar": "avatar-1.png",
     "status": "Implementer",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "20 Aug",
+    "latestMessage": {
+      "message": "Thanks for your help debugging!",
+      "time": "9:51 AM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Eadwulf",
     "unReadChatCount": 0,
-    "online_status": "offline"
+    "online_status": "offline",
+    "isFavorite": false
   },
   {
     "id": 10,
@@ -164,10 +235,16 @@
     "location": "Australia",
     "avatar": "avatar-2.png",
     "status": "Leader",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "19 Aug",
+    "latestMessage": {
+      "message": "Thanks! Glad it was helpful.",
+      "time": "5:01 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Midas",
     "unReadChatCount": 0,
-    "online_status": "offline"
+    "online_status": "offline",
+    "isFavorite": true
   },
   {
     "id": 11,
@@ -181,10 +258,16 @@
     "location": "Austria",
     "avatar": "avatar-3.png",
     "status": "Facilitator",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "19 Aug",
+    "latestMessage": {
+      "message": "Perfect! Thanks for handling the deployment.",
+      "time": "8:01 AM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Uranus",
     "unReadChatCount": 0,
-    "online_status": "available"
+    "online_status": "available",
+    "isFavorite": false
   },
   {
     "id": 12,
@@ -198,10 +281,16 @@
     "location": "Azerbaijan",
     "avatar": "avatar-4.png",
     "status": "One of the Graces.",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "18 Aug",
+    "latestMessage": {
+      "message": "Thanks for reviewing the code so quickly!",
+      "time": "3:51 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Peahen",
     "unReadChatCount": 0,
-    "online_status": "do_not_disturb"
+    "online_status": "do_not_disturb",
+    "isFavorite": false
   },
   {
     "id": 13,
@@ -215,9 +304,32 @@
     "location": "Bahamas",
     "avatar": "avatar-5.png",
     "status": "To stay",
-    "lastMessage": "4/25/2021",
+    "lastMessage": "18 Aug",
+    "latestMessage": {
+      "message": "That's awesome news! Thanks for sharing.",
+      "time": "6:31 PM",
+      "seen": true
+    },
     "birthdayText": "happy Birthday Menelaus",
     "unReadChatCount": 0,
-    "online_status": "offline"
+    "online_status": "offline",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "name": "Frontend Team",
+    "isGroup": true,
+    "members": ["Alene", "Keefe", "Lazaro", "Hazle"],
+    "avatar": "group-frontend.png",
+    "status": "Project: Website Redesign",
+    "lastMessage": "09:00 AM",
+    "latestMessage": {
+      "message": "Let's finalize the UI components by tomorrow.",
+      "time": "09:00 AM",
+      "seen": true
+    },
+    "unReadChatCount": 0,
+    "online_status": "active",
+    "isFavorite": false
   }
 ]
