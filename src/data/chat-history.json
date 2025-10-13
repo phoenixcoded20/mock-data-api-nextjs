@@ -1,66 +1,562 @@
 [
-  { "id": 1, "from": "User1", "to": "Alene", "text": "Hi Good Morning!", "time": "11:23 AM" },
-  { "id": 2, "from": "Alene", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:23 AM" },
-  { "id": 3, "from": "User1", "to": "Alene", "text": "Good. Thank you", "time": "11:23 AM" },
-  { "id": 4, "from": "Alene", "to": "User1", "text": "I need your minute, are you available?", "time": "11:23 AM" },
+  { "id": 1, "from": "User1", "to": "Alene", "text": "Hey, have you checked the new design draft?", "time": "5:15 PM", "seen": true },
+  {
+    "id": 2,
+    "from": "Alene",
+    "to": "User1",
+    "text": "Yes, I reviewed it this morning. Looks good overall.",
+    "time": "5:20 PM",
+    "seen": true
+  },
+  {
+    "id": 3,
+    "from": "User1",
+    "to": "Alene",
+    "text": "Great! Do you think we should update the header section?",
+    "time": "5:22 PM",
+    "seen": true
+  },
+  { "id": 4, "from": "Alene", "to": "User1", "text": "Yeah, the font size feels a bit small.", "time": "5:40 PM", "seen": true },
 
-  { "id": 5, "from": "User1", "to": "Keefe", "text": "Hey man", "time": "11:24 AM" },
-  { "id": 6, "from": "Keefe", "to": "User1", "text": "Hi, Wats up?", "time": "11:24 AM" },
-  { "id": 7, "from": "User1", "to": "Keefe", "text": "Need your minute. are you available?", "time": "11:24 AM" },
-  { "id": 8, "from": "Keefe", "to": "User1", "text": "Sure. Let's meet.", "time": "11:24 AM" },
+  {
+    "id": 5,
+    "from": "User1",
+    "to": "Alene",
+    "text": "Okay, I'll fix that and share an updated version today.",
+    "time": "5:41 PM",
+    "seen": true
+  },
+  {
+    "id": 6,
+    "from": "Alene",
+    "to": "User1",
+    "text": "Perfect. Also, don't forget to add the client logo on the first slide.",
+    "time": "5:45 PM",
+    "seen": true
+  },
+  { "id": 7, "from": "User1", "to": "Alene", "text": "Got it 👍 Anything else?", "time": "6:15 PM", "seen": true },
+  {
+    "id": 8,
+    "from": "Alene",
+    "to": "User1",
+    "text": "Nope, that's all for now. Thanks for the quick update!",
+    "time": "6:15 PM",
+    "seen": true
+  },
 
-  { "id": 9, "from": "User1", "to": "Lazaro", "text": "Hi Good Morning!", "time": "11:25 AM" },
-  { "id": 10, "from": "Lazaro", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:25 AM" },
-  { "id": 11, "from": "User1", "to": "Lazaro", "text": "Good. Thank you", "time": "11:25 AM" },
-  { "id": 12, "from": "Lazaro", "to": "User1", "text": "I need your minute, are you available?", "time": "11:25 AM" },
+  {
+    "id": 9,
+    "from": "User1",
+    "to": "Lazaro",
+    "text": "Hey Lazaro, quick question about the API integration 🤔",
+    "time": "11:25 AM",
+    "seen": true
+  },
+  { "id": 10, "from": "Lazaro", "to": "User1", "text": "Sure, what's on your mind?", "time": "11:25 AM", "seen": true },
+  {
+    "id": 11,
+    "from": "User1",
+    "to": "Lazaro",
+    "text": "Are we using REST or GraphQL for the new feature?",
+    "time": "11:25 AM",
+    "seen": true
+  },
+  {
+    "id": 12,
+    "from": "Lazaro",
+    "to": "User1",
+    "text": "We're going with GraphQL. It'll give us more flexibility with the data fetching 👍",
+    "time": "11:26 AM",
+    "seen": true
+  },
 
-  { "id": 13, "from": "User1", "to": "Hazle", "text": "Hey man", "time": "11:26 AM" },
-  { "id": 14, "from": "Hazle", "to": "User1", "text": "Hi, Wats up?", "time": "11:26 AM" },
-  { "id": 15, "from": "User1", "to": "Hazle", "text": "Need your minute. are you available?", "time": "11:26 AM" },
-  { "id": 16, "from": "Hazle", "to": "User1", "text": "Sure. Let's meet.", "time": "11:26 AM" },
+  {
+    "id": 13,
+    "from": "User1",
+    "to": "Hazle",
+    "text": "Can you review my latest PR when you get a chance? 🙏",
+    "time": "2:15 PM",
+    "seen": true
+  },
+  { "id": 14, "from": "Hazle", "to": "User1", "text": "Of course! Is it the dashboard analytics one?", "time": "2:20 PM", "seen": true },
+  {
+    "id": 15,
+    "from": "User1",
+    "to": "Hazle",
+    "text": "Yeah, that's the one. I've added some performance optimizations",
+    "time": "2:21 PM",
+    "seen": true
+  },
+  {
+    "id": 16,
+    "from": "Hazle",
+    "to": "User1",
+    "text": "Great timing! I'll take a look at it in the next hour ⚡",
+    "time": "2:22 PM",
+    "seen": true
+  },
 
-  { "id": 17, "from": "User1", "to": "Herman Essertg", "text": "Hi Good Morning!", "time": "11:27 AM" },
-  { "id": 18, "from": "Herman Essertg", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:27 AM" },
-  { "id": 19, "from": "User1", "to": "Herman Essertg", "text": "Good. Thank you", "time": "11:27 AM" },
-  { "id": 20, "from": "Herman Essertg", "to": "User1", "text": "I need your minute, are you available?", "time": "11:27 AM" },
+  {
+    "id": 17,
+    "from": "User1",
+    "to": "Herman Essertg",
+    "text": "Meeting room booked for the sprint planning at 3 PM 📅",
+    "time": "1:45 PM",
+    "seen": true
+  },
+  {
+    "id": 18,
+    "from": "Herman Essertg",
+    "to": "User1",
+    "text": "Perfect, thanks! Is it in the main conference room?",
+    "time": "1:46 PM",
+    "seen": true
+  },
+  {
+    "id": 19,
+    "from": "User1",
+    "to": "Herman Essertg",
+    "text": "Yes, and I've set up the video call link for remote team members",
+    "time": "1:47 PM",
+    "seen": true
+  },
+  {
+    "id": 20,
+    "from": "Herman Essertg",
+    "to": "User1",
+    "text": "Awesome! I'll prepare the backlog items for review 📊",
+    "time": "1:48 PM",
+    "seen": true
+  },
 
-  { "id": 21, "from": "User1", "to": "Wilhelmine Durrg", "text": "Hey man", "time": "11:28 AM" },
-  { "id": 22, "from": "Wilhelmine Durrg", "to": "User1", "text": "Hi, Wats up?", "time": "11:28 AM" },
-  { "id": 23, "from": "User1", "to": "Wilhelmine Durrg", "text": "Need your minute. are you available?", "time": "11:28 AM" },
-  { "id": 24, "from": "Wilhelmine Durrg", "to": "User1", "text": "Sure. Let's meet.", "time": "11:28 AM" },
+  {
+    "id": 21,
+    "from": "User1",
+    "to": "Wilhelmine Durrg",
+    "text": "The new UI components are ready for testing ✨",
+    "time": "3:45 PM",
+    "seen": true
+  },
+  {
+    "id": 22,
+    "from": "Wilhelmine Durrg",
+    "to": "User1",
+    "text": "That's great! Did you include the dark mode variants?",
+    "time": "3:47 PM",
+    "seen": true
+  },
+  {
+    "id": 23,
+    "from": "User1",
+    "to": "Wilhelmine Durrg",
+    "text": "Yep! All components are theme-aware now. Check out the Storybook demo",
+    "time": "3:48 PM",
+    "seen": true
+  },
+  {
+    "id": 24,
+    "from": "Wilhelmine Durrg",
+    "to": "User1",
+    "text": "Perfect timing! We need these for the next release 🚀",
+    "time": "3:50 PM",
+    "seen": true
+  },
 
-  { "id": 25, "from": "User1", "to": "Agilulf Fuxg", "text": "Hi Good Morning!", "time": "11:29 AM" },
-  { "id": 26, "from": "Agilulf Fuxg", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:29 AM" },
-  { "id": 27, "from": "User1", "to": "Agilulf Fuxg", "text": "Good. Thank you", "time": "11:29 AM" },
-  { "id": 28, "from": "Agilulf Fuxg", "to": "User1", "text": "I need your minute, are you available?", "time": "11:29 AM" },
+  {
+    "id": 25,
+    "from": "User1",
+    "to": "Agilulf Fuxg",
+    "text": "Found an issue with the production database backup 🚨",
+    "time": "4:15 PM",
+    "seen": true
+  },
+  { "id": 26, "from": "Agilulf Fuxg", "to": "User1", "text": "What's the problem? Are we losing data?", "time": "4:15 PM", "seen": true },
+  {
+    "id": 27,
+    "from": "User1",
+    "to": "Agilulf Fuxg",
+    "text": "No data loss, but the automated backup failed last night. I'm running a manual backup now",
+    "time": "4:16 PM",
+    "seen": true
+  },
+  {
+    "id": 28,
+    "from": "Agilulf Fuxg",
+    "to": "User1",
+    "text": "Thanks for catching that! Let's set up monitoring alerts for backup jobs ⚡",
+    "time": "4:18 PM",
+    "seen": true
+  },
 
-  { "id": 29, "from": "User1", "to": "Adaline Bergfalks", "text": "Hey man", "time": "11:30 AM" },
-  { "id": 30, "from": "Adaline Bergfalks", "to": "User1", "text": "Hi, Wats up?", "time": "11:30 AM" },
-  { "id": 31, "from": "User1", "to": "Adaline Bergfalks", "text": "Need your minute. are you available?", "time": "11:30 AM" },
-  { "id": 32, "from": "Adaline Bergfalks", "to": "User1", "text": "Sure. Let's meet.", "time": "11:30 AM" },
+  {
+    "id": 29,
+    "from": "User1",
+    "to": "Adaline Bergfalks",
+    "text": "Just pushed the documentation updates for the API endpoints 📚",
+    "time": "10:30 AM",
+    "seen": true
+  },
+  {
+    "id": 30,
+    "from": "Adaline Bergfalks",
+    "to": "User1",
+    "text": "Thanks! Did you include the authentication examples?",
+    "time": "10:32 AM",
+    "seen": true
+  },
+  {
+    "id": 31,
+    "from": "User1",
+    "to": "Adaline Bergfalks",
+    "text": "Yes, added both JWT and OAuth examples with Postman collections",
+    "time": "10:33 AM",
+    "seen": true
+  },
+  {
+    "id": 32,
+    "from": "Adaline Bergfalks",
+    "to": "User1",
+    "text": "Perfect! This will help the frontend team a lot 🙌",
+    "time": "10:35 AM",
+    "seen": true
+  },
 
-  { "id": 33, "from": "User1", "to": "Eadwulf Beckete", "text": "Hi Good Morning!", "time": "11:31 AM" },
-  { "id": 34, "from": "Eadwulf Beckete", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:31 AM" },
-  { "id": 35, "from": "User1", "to": "Eadwulf Beckete", "text": "Good. Thank you", "time": "11:31 AM" },
-  { "id": 36, "from": "Eadwulf Beckete", "to": "User1", "text": "I need your minute, are you available?", "time": "11:31 AM" },
+  {
+    "id": 33,
+    "from": "User1",
+    "to": "Eadwulf Beckete",
+    "text": "E2E tests are failing on the CI pipeline 🔍",
+    "time": "9:31 AM",
+    "seen": true
+  },
+  { "id": 34, "from": "Eadwulf Beckete", "to": "User1", "text": "Which tests are failing? Login flow?", "time": "9:32 AM", "seen": true },
+  {
+    "id": 35,
+    "from": "User1",
+    "to": "Eadwulf Beckete",
+    "text": "Yeah, seems like the latest auth changes broke the login tests. I'm investigating",
+    "time": "9:34 AM",
+    "seen": true
+  },
+  {
+    "id": 36,
+    "from": "Eadwulf Beckete",
+    "to": "User1",
+    "text": "Let me know if you need help debugging. We should add more test coverage for auth flows 🛡️",
+    "time": "9:35 AM",
+    "seen": true
+  },
 
-  { "id": 37, "from": "User1", "to": "Midas", "text": "Hey man", "time": "11:32 AM" },
-  { "id": 38, "from": "Midas", "to": "User1", "text": "Hi, Wats up?", "time": "11:32 AM" },
-  { "id": 39, "from": "User1", "to": "Midas", "text": "Need your minute. are you available?", "time": "11:32 AM" },
-  { "id": 40, "from": "Midas", "to": "User1", "text": "Sure. Let's meet.", "time": "11:32 AM" },
+  { "id": 37, "from": "User1", "to": "Midas", "text": "Weekly performance report is ready 📊", "time": "4:32 PM", "seen": true },
+  { "id": 38, "from": "Midas", "to": "User1", "text": "Great! How's our Core Web Vitals looking?", "time": "4:33 PM", "seen": true },
+  {
+    "id": 39,
+    "from": "User1",
+    "to": "Midas",
+    "text": "Much better! LCP improved by 25% after implementing image optimization",
+    "time": "4:35 PM",
+    "seen": true
+  },
+  {
+    "id": 40,
+    "from": "Midas",
+    "to": "User1",
+    "text": "That's impressive! Let's share this in tomorrow's standup 🎯",
+    "time": "4:36 PM",
+    "seen": true
+  },
 
-  { "id": 41, "from": "User1", "to": "Uranus", "text": "Hi Good Morning!", "time": "11:33 AM" },
-  { "id": 42, "from": "Uranus", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:33 AM" },
-  { "id": 43, "from": "User1", "to": "Uranus", "text": "Good. Thank you", "time": "11:33 AM" },
-  { "id": 44, "from": "Uranus", "to": "User1", "text": "I need your minute, are you available?", "time": "11:33 AM" },
+  {
+    "id": 41,
+    "from": "User1",
+    "to": "Uranus",
+    "text": "Hey, we need to update the dependencies to fix security vulnerabilities 🔒",
+    "time": "11:33 AM",
+    "seen": true
+  },
+  { "id": 42, "from": "Uranus", "to": "User1", "text": "How many packages need updating?", "time": "11:34 AM", "seen": true },
+  {
+    "id": 43,
+    "from": "User1",
+    "to": "Uranus",
+    "text": "About 5 major ones. I've tested the updates in the staging environment, everything looks good",
+    "time": "11:35 AM",
+    "seen": true
+  },
+  {
+    "id": 44,
+    "from": "Uranus",
+    "to": "User1",
+    "text": "Nice work! Let's schedule the production update for tonight 🌙",
+    "time": "11:36 AM",
+    "seen": true
+  },
 
-  { "id": 45, "from": "User1", "to": "Peahen", "text": "Hey man", "time": "11:34 AM" },
-  { "id": 46, "from": "Peahen", "to": "User1", "text": "Hi, Wats up?", "time": "11:34 AM" },
-  { "id": 47, "from": "User1", "to": "Peahen", "text": "Need your minute. are you available?", "time": "11:34 AM" },
-  { "id": 48, "from": "Peahen", "to": "User1", "text": "Sure. Let's meet.", "time": "11:34 AM" },
+  {
+    "id": 45,
+    "from": "User1",
+    "to": "Peahen",
+    "text": "Can we do a quick code review? Added new caching layer 💪",
+    "time": "3:34 PM",
+    "seen": true
+  },
+  { "id": 46, "from": "Peahen", "to": "User1", "text": "Sure! Is it for the product listings?", "time": "3:35 PM", "seen": true },
+  {
+    "id": 47,
+    "from": "User1",
+    "to": "Peahen",
+    "text": "Yes, implemented Redis caching. Should improve response times significantly",
+    "time": "3:36 PM",
+    "seen": true
+  },
+  {
+    "id": 48,
+    "from": "Peahen",
+    "to": "User1",
+    "text": "Excellent! I'll review it right away. Did you add cache invalidation? 🤔",
+    "time": "3:37 PM",
+    "seen": true
+  },
 
-  { "id": 49, "from": "User1", "to": "Menelaus", "text": "Hi Good Morning!", "time": "11:35 AM" },
-  { "id": 50, "from": "Menelaus", "to": "User1", "text": "Hey. Very Good morning. How are you?", "time": "11:35 AM" },
-  { "id": 51, "from": "User1", "to": "Menelaus", "text": "Good. Thank you", "time": "11:35 AM" },
-  { "id": 52, "from": "Menelaus", "to": "User1", "text": "I need your minute, are you available?", "time": "11:35 AM" }
+  {
+    "id": 49,
+    "from": "User1",
+    "to": "Menelaus",
+    "text": "Just deployed the new analytics dashboard to staging 📈",
+    "time": "2:35 PM",
+    "seen": true
+  },
+  { "id": 50, "from": "Menelaus", "to": "User1", "text": "Awesome! All charts rendering correctly?", "time": "2:36 PM", "seen": true },
+  {
+    "id": 51,
+    "from": "User1",
+    "to": "Menelaus",
+    "text": "Yes, and added real-time updates using WebSocket connection",
+    "time": "2:37 PM",
+    "seen": true
+  },
+  {
+    "id": 52,
+    "from": "Menelaus",
+    "to": "User1",
+    "text": "That's exactly what we needed! Can't wait to show this to the client 🎉",
+    "time": "2:38 PM",
+    "seen": true
+  },
+  {
+    "id": 53,
+    "from": "User1",
+    "to": "Keefe",
+    "text": "Hey Keefe, are you joining the team lunch today? 🍕",
+    "time": "12:05 PM",
+    "seen": true
+  },
+  { "id": 54, "from": "Keefe", "to": "User1", "text": "Absolutely! Where are we going?", "time": "12:06 PM", "seen": true },
+  {
+    "id": 55,
+    "from": "User1",
+    "to": "Keefe",
+    "text": "Thinking of the new Italian place near the office.",
+    "time": "12:07 PM",
+    "seen": true
+  },
+  {
+    "id": 56,
+    "from": "Keefe",
+    "to": "User1",
+    "text": "Sounds great! I'll let the others know. See you there! 😄",
+    "time": "12:08 PM",
+    "seen": true
+  },
+  {
+    "id": 57,
+    "from": "Alene",
+    "to": "User1",
+    "text": "Hey, did you get a chance to review the bug report I sent?",
+    "time": "3:10 PM",
+    "seen": false
+  },
+  {
+    "id": 58,
+    "from": "User1",
+    "to": "Alene",
+    "text": "Yes, I saw it. Working on a fix now. Should be done by EOD.",
+    "time": "3:12 PM",
+    "seen": false
+  },
+  { "id": 59, "from": "Lazaro", "to": "User1", "text": "Can you share the latest API docs?", "time": "10:15 AM", "seen": true },
+  {
+    "id": 60,
+    "from": "User1",
+    "to": "Lazaro",
+    "text": "Just uploaded them to the shared drive. Let me know if you need anything else!",
+    "time": "10:16 AM",
+    "seen": false
+  },
+  { "id": 61, "from": "Hazle", "to": "User1", "text": "The dashboard looks awesome after your changes!", "time": "5:05 PM", "seen": true },
+  { "id": 62, "from": "User1", "to": "Hazle", "text": "Thanks! Let me know if you spot any issues.", "time": "5:06 PM", "seen": false },
+  {
+    "id": 63,
+    "from": "Herman Essertg",
+    "to": "User1",
+    "text": "Reminder: Sprint demo is tomorrow at 11 AM.",
+    "time": "4:00 PM",
+    "seen": true
+  },
+  {
+    "id": 64,
+    "from": "User1",
+    "to": "Herman Essertg",
+    "text": "Thanks for the heads up! I'll prepare the slides tonight.",
+    "time": "4:01 PM",
+    "seen": true
+  },
+  {
+    "id": 65,
+    "from": "Wilhelmine Durrg",
+    "to": "User1",
+    "text": "Do you have the Figma link for the new UI?",
+    "time": "2:20 PM",
+    "seen": true
+  },
+  { "id": 66, "from": "User1", "to": "Wilhelmine Durrg", "text": "Just sent it to your email!", "time": "2:21 PM", "seen": false },
+  {
+    "id": 67,
+    "from": "Agilulf Fuxg",
+    "to": "User1",
+    "text": "Backup monitoring is now live. You'll get alerts if anything fails.",
+    "time": "6:00 PM",
+    "seen": true
+  },
+  { "id": 68, "from": "User1", "to": "Agilulf Fuxg", "text": "Awesome, thanks for setting that up!", "time": "6:01 PM", "seen": true },
+  {
+    "id": 69,
+    "from": "Adaline Bergfalks",
+    "to": "User1",
+    "text": "Frontend team started using your API docs. Feedback is positive!",
+    "time": "11:00 AM",
+    "seen": true
+  },
+  {
+    "id": 70,
+    "from": "User1",
+    "to": "Adaline Bergfalks",
+    "text": "Great to hear! Let me know if they need more examples.",
+    "time": "11:01 AM",
+    "seen": false
+  },
+  {
+    "id": 71,
+    "from": "Eadwulf Beckete",
+    "to": "User1",
+    "text": "Auth tests are passing now. Nice work!",
+    "time": "9:50 AM",
+    "seen": true
+  },
+  { "id": 72, "from": "User1", "to": "Eadwulf Beckete", "text": "Thanks for your help debugging!", "time": "9:51 AM", "seen": true },
+  {
+    "id": 73,
+    "from": "Midas",
+    "to": "User1",
+    "text": "Shared your performance report with the team. Everyone's impressed!",
+    "time": "5:00 PM",
+    "seen": true
+  },
+  { "id": 74, "from": "User1", "to": "Midas", "text": "Thanks! Glad it was helpful.", "time": "5:01 PM", "seen": true },
+  {
+    "id": 75,
+    "from": "Uranus",
+    "to": "User1",
+    "text": "Production update went smoothly. No issues reported.",
+    "time": "8:00 AM",
+    "seen": true
+  },
+  { "id": 76, "from": "User1", "to": "Uranus", "text": "Perfect! Thanks for handling the deployment.", "time": "8:01 AM", "seen": true },
+  { "id": 77, "from": "Peahen", "to": "User1", "text": "Cache invalidation works perfectly. Great job!", "time": "3:50 PM", "seen": true },
+  { "id": 78, "from": "User1", "to": "Peahen", "text": "Thanks for reviewing the code so quickly!", "time": "3:51 PM", "seen": true },
+  {
+    "id": 79,
+    "from": "Menelaus",
+    "to": "User1",
+    "text": "Client loved the analytics dashboard. Well done!",
+    "time": "6:30 PM",
+    "seen": true
+  },
+  { "id": 80, "from": "User1", "to": "Menelaus", "text": "That's awesome news! Thanks for sharing.", "time": "6:31 PM", "seen": true },
+  { "id": 81, "from": "Keefe", "to": "User1", "text": "Lunch was great! We should do this more often.", "time": "1:30 PM", "seen": true },
+  { "id": 82, "from": "User1", "to": "Keefe", "text": "Agreed! Next time, let's try sushi.", "time": "1:31 PM", "seen": true },
+
+  {
+    "id": 1001,
+    "from": "Alene",
+    "to": "Frontend Team",
+    "text": "Morning team! Any blockers for today's UI tasks?",
+    "time": "08:30 AM",
+    "seen": true,
+    "type": "group"
+  },
+  {
+    "id": 1002,
+    "from": "User1",
+    "to": "Frontend Team",
+    "text": "No blockers here. Working on the header redesign.",
+    "time": "08:32 AM",
+    "seen": true,
+    "type": "group"
+  },
+  {
+    "id": 1003,
+    "from": "Lazaro",
+    "to": "Frontend Team",
+    "text": "I'll update the color palette and push by noon.",
+    "time": "08:35 AM",
+    "seen": true,
+    "type": "group"
+  },
+  {
+    "id": 1004,
+    "from": "Hazle",
+    "to": "Frontend Team",
+    "text": "Let's finalize the UI components by tomorrow.",
+    "time": "09:00 AM",
+    "seen": true,
+    "type": "group"
+  },
+
+  {
+    "id": 2001,
+    "from": "Midas",
+    "to": "Backend Squad",
+    "text": "Reminder: Database migration scheduled for tonight.",
+    "time": "Yesterday",
+    "seen": false,
+    "type": "group"
+  },
+  {
+    "id": 2002,
+    "from": "Eadwulf Beckete",
+    "to": "Backend Squad",
+    "text": "All API endpoints are ready for the new schema.",
+    "time": "Yesterday",
+    "seen": false,
+    "type": "group"
+  },
+  {
+    "id": 2003,
+    "from": "User1",
+    "to": "Backend Squad",
+    "text": "I'll monitor the migration and update everyone.",
+    "time": "Yesterday",
+    "seen": false,
+    "type": "group"
+  },
+  {
+    "id": 2004,
+    "from": "Agilulf Fuxg",
+    "to": "Backend Squad",
+    "text": "Great! Let's sync at 10 PM for a quick check-in.",
+    "time": "Yesterday",
+    "seen": false,
+    "type": "group"
+  }
 ]
