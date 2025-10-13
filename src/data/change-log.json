@@ -6,10 +6,7 @@
       "date": "27 May, 2022",
       "title": "",
       "description": "",
-      "features": [
-        "Initial Release",
-        "JavaScript/TypeScript package with full preview, Skeleton, and Seed versions."
-      ],
+      "features": ["Initial Release", "JavaScript/TypeScript package with full preview, Skeleton, and Seed versions."],
       "banner": "",
       "conclusion": ""
     },
@@ -97,33 +94,19 @@
           ]
         },
         {
-          "React Table": [
-            "Editable table with validation",
-            "Resize Column",
-            "Sticky header",
-            "Empty - no data table",
-            "Type updates"
-          ]
+          "React Table": ["Editable table with validation", "Resize Column", "Sticky header", "Empty - no data table", "Type updates"]
         },
         "Animations added on dialogs, popper, and landing",
         "The welcome image on First Dashboard",
         {
-          "Customer": [
-            "move from profile to customer-> Card, List",
-            "Added sorting and filtering"
-          ]
+          "Customer": ["move from profile to customer-> Card, List", "Added sorting and filtering"]
         },
         "Login - After logging in, the user should be automatically forwarded to the called link",
         "Forgot the password to aws",
         "Render menu from the backend",
         "Auth keys moved from config to .env",
         {
-          "Bug Fixes": [
-            "Multiple menus are active",
-            "E-commerce product list issue",
-            "Breadcrumb",
-            "RTL issue organization chart"
-          ]
+          "Bug Fixes": ["Multiple menus are active", "E-commerce product list issue", "Breadcrumb", "RTL issue organization chart"]
         }
       ],
       "banner": "",
@@ -137,20 +120,14 @@
       "description": "",
       "features": [
         {
-          "Update to Next.js 13 (Without App Directory)": [
-            "App directory will be provided in upcoming releases"
-          ]
+          "Update to Next.js 13 (Without App Directory)": ["App directory will be provided in upcoming releases"]
         },
         "Other packages upgrades",
         "Remove Mock API and use Live but Fake API",
         "Set Default Auth as JWT",
         ".env updates",
         {
-          "React table": [
-            "Added virtual data loading",
-            "Added infinite scroll",
-            "Group chip in the group table"
-          ]
+          "React table": ["Added virtual data loading", "Added infinite scroll", "Group chip in the group table"]
         },
         {
           "Bug Fixes": [
@@ -218,10 +195,7 @@
           ]
         },
         {
-          "Bug Fix": [
-            "Infinite loading issue after login",
-            "RTL issue in react-table"
-          ]
+          "Bug Fix": ["Infinite loading issue after login", "RTL issue in react-table"]
         },
         "Improve active menu using matchPath"
       ],
@@ -234,10 +208,7 @@
       "date": "21 Dec, 2023",
       "title": "",
       "description": "",
-      "features": [
-        "Removed getServerSideProps() for next-auth in Next.js",
-        "No updates in Vite Packages"
-      ],
+      "features": ["Removed getServerSideProps() for next-auth in Next.js", "No updates in Vite Packages"],
       "banner": "",
       "conclusion": ""
     },
@@ -263,11 +234,7 @@
         "Image path updates for VITE",
         "Change the arrow/const function to the JavaScript function for Hoisting in components",
         {
-          "Import updates for performance": [
-            "MUI components",
-            "Ant icons",
-            "Apexchart"
-          ]
+          "Import updates for performance": ["MUI components", "Ant icons", "Apexchart"]
         },
         {
           "Bug fixes": [
@@ -356,13 +323,7 @@
       "description": "",
       "features": [
         {
-          "React v19 upgrades": [
-            "useTransition action",
-            "useDeferredValue hook",
-            "useAPI hook",
-            "<Context> as a provider",
-            "ref as a prop"
-          ]
+          "React v19 upgrades": ["useTransition action", "useDeferredValue hook", "useAPI hook", "<Context> as a provider", "ref as a prop"]
         },
         "Material UI v7 package upgrades",
         "Other Package upgrades",
@@ -370,10 +331,7 @@
         "Set Yarn version to v4.9.1",
         "Bug fixes",
         {
-          "Figma updates": [
-            "Change in Primary color to match the live preview",
-            "Fix colors in variables and assign them to color styles"
-          ]
+          "Figma updates": ["Change in Primary color to match the live preview", "Fix colors in variables and assign them to color styles"]
         }
       ],
       "banner": "",
@@ -394,7 +352,7 @@
         "Fixed theme mode & direction toggle issue in customization",
         "Minor issues fixed"
       ],
-      "banner": "",
+      "banner": "https://mui-store.netlify.app/.netlify/images?w=700&h=385&url=https://store-wp.mui.com/wp-content/uploads/2025/05/mantis-v3.5.0.png",
       "conclusion": ""
     }
   ],
