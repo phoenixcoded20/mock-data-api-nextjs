@@ -30,7 +30,7 @@
       "id": "components",
       "title": "components",
       "type": "item",
-      "url": "/components-overview/buttons",
+      "url": "/components-overview",
       "icon": "components",
       "target": true,
       "chip": {
