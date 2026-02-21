@@ -349,6 +349,118 @@
       ],
       "banner": "https://mui-store.netlify.app/.netlify/images?w=700&h=385&url=https://store-wp.mui.com/wp-content/uploads/2025/05/mantis-v3.5.0.png",
       "conclusion": ""
+    },
+    {
+      "id": 14,
+      "version": "v4.0.0",
+      "date": "21 Oct, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "[MUI] Improvements": [
+            "Introduced CSS variables for better theme customisation.",
+            "Fixed DatePicker and PickerTextField overrides.",
+            "Removed deprecated Grid direction column.",
+            "Improved components using slotProps and slots.",
+            "Fixed Stack spacing props by replacing spacing with gap via sx.",
+            "Enhanced chart components with refined theme overrides."
+          ],
+          "New Pages": [
+            "Join Waitlist",
+            "FAQ's",
+            "Update / Changelog page",
+            "Components Presentation page",
+            "Landing Page (Upgraded and added new sections)"
+          ],
+          "Dashboard": [
+            "Enhanced header quick actions.",
+            "Introduced Workspace selection feature.",
+            "Added Quick Chat board.",
+            "Upgraded notification system.",
+            "Added System Mode (Light/Dark/Auto) support."
+          ],
+          "Components": [
+            "Added new custom Accordion variant.",
+            "Introduced a new Footer section.",
+            "Added a comprehensive Components page.",
+            "Improved live customisation performance in development mode.",
+            "Updated and fixed various components as per Figma verification."
+          ],
+          "Table (TanStack)": [
+            "Improved TanStack Table integration.",
+            "Fixed column & row drag-and-drop issues.",
+            "Added meta configuration for cell styling.",
+            "Fixed editable cell & row form validation.",
+            "Introduced custom filtering options.",
+            "Removed unused code and optimised performance."
+          ],
+          "ApexCharts": [
+            "Fixed flickering issues during mode changes.",
+            "Removed unused code and hooks for optimisation.",
+            "Optimised chart data handling.",
+            "Improved legend and toolbar functionality."
+          ],
+          "Quill Editor": ["Improved user interface for better usability and design consistency."],
+          "System & Performance": [
+            "Upgraded core packages to latest versions.",
+            "Enhanced performance, accessibility, and code optimization.",
+            "General bug fixes and stability improvements."
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 15,
+      "version": "v4.0.1",
+      "date": "22 December, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "Breaking / Major Changes": ["Migrated mapping library from Mapbox GL to MapLibre GL."],
+          "Bug Fixes": ["Resolved dark & rtl mode compatibility issues in the Quill Editor."],
+          "Framework & Platform Updates": [
+            "Upgraded to React v19.2.",
+            "Upgraded to Next.js v16.1.",
+            "Upgraded project dependencies to the latest stable versions."
+          ],
+          "Security Updates": [
+            "Next.js: Resolved reported security vulnerabilities (Next.js Security Update: December 11, 2025).",
+            "React: Fixed security issues related to Denial of Service and Source Code Exposure in React Server Components (React Security Update: December 11, 2025)."
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+    {
+      "id": 16,
+      "version": "v4.1.0",
+      "date": "23 February, 2026",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "New Features": [
+            "Added Prompt Library for centralized access to prebuilt AI prompts.",
+            "Introduced a dedicated AI Prompts page.",
+            "Added new Animation Card component.",
+            "Added new AI-focused sections on the landing page."
+          ],
+          "Improvements": [
+            "Optimized landing images by converting PNG to WebP for better performance.",
+            "Improved container spacing and gap consistency across: Landing pages, Components pages, and SaaS pages.",
+            "Extended Syntax Highlighter options for enhanced customization and flexibility."
+          ],
+          "Component Fixes": ["Rating", "Switch"],
+          "Package Upgrades": ["Upgraded ESLint to v10.0.0.", "Other package upgrades to the latest version."]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
     }
   ],
   "berry": [
