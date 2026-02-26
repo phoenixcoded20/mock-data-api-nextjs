@@ -439,7 +439,7 @@
     {
       "id": 16,
       "version": "v4.1.0",
-      "date": "23 February, 2026",
+      "date": "25 February, 2026",
       "title": "",
       "description": "",
       "features": [
@@ -459,7 +459,7 @@
           "Package Upgrades": ["Upgraded ESLint to v10.0.0.", "Other package upgrades to the latest version."]
         }
       ],
-      "banner": "",
+      "banner": "https://mui-store.netlify.app/.netlify/images?w=700&h=385&url=https://store-wp.mui.com/wp-content/uploads/2026/02/cropped-mantis_v4.1.0.jpg",
       "conclusion": ""
     }
   ],
