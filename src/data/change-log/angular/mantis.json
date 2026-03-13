@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "version": "v1.0",
+    "date": "10 Jan, 2023",
+    "title": "Initial Release",
+    "description": "The very first release of Mantis Angular Admin Template.",
+    "features": [
+      "Initial release"
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 2,
+    "version": "v1.1",
+    "date": "03 Jun, 2023",
+    "title": "Angular 16 Upgrade",
+    "description": "Upgraded the template to Angular 16 with latest ecosystem improvements.",
+    "features": [
+      "Angular 16"
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 3,
+    "version": "v1.2",
+    "date": "23 Nov, 2023",
+    "title": "Angular 17 & JWT Auth",
+    "description": "Major upgrade to Angular 17 and introduction of JWT-based authentication.",
+    "features": [
+      {
+        "New Features": [
+          "Angular 17",
+          "Make use of JWT-based Auth"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 4,
+    "version": "v1.3",
+    "date": "08 Jan, 2024",
+    "title": "Control Flow & i18n",
+    "description": "Introduced Angular's new control flow syntax, multi-language support, and package upgrades.",
+    "features": [
+      {
+        "New Features": [
+          "Control flow updates",
+          "Multi-language support"
+        ]
+      },
+      {
+        "Improvements": [
+          "Package upgrades and code improvements"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 5,
+    "version": "v1.4",
+    "date": "30 Apr, 2024",
+    "title": "Angular 18 & Defer Support",
+    "description": "A major update bringing Angular 18, deferred loading, Ant Icons, and significant developer experience improvements.",
+    "features": [
+      {
+        "New Features": [
+          "Angular 18",
+          "Added Ant Icon",
+          "Defer support",
+          "Standalone mode layout component"
+        ]
+      },
+      {
+        "Improvements": [
+          "SCSS updates",
+          "Chat app improvements"
+        ]
+      },
+      {
+        "Bug Fixes": [
+          "Implemented 404 routing",
+          "Bug fixes and code improvements"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 6,
+    "version": "v1.5",
+    "date": "08 Jul, 2024",
+    "title": "Dashboards & Signal Support",
+    "description": "Major feature release adding multiple admin panel dashboards and Angular Signals support.",
+    "features": [
+      {
+        "New Pages & Dashboards": [
+          "Finance Dashboard",
+          "Online Course Admin Panel",
+          "Membership Admin Panel",
+          "Helpdesk Admin Panel",
+          "Invoice Admin Panel"
+        ]
+      },
+      {
+        "New Features": [
+          "Default language support",
+          "Added Signal"
+        ]
+      },
+      {
+        "Improvements": [
+          "Package upgrades",
+          "Bug fixes"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 7,
+    "version": "v2.0",
+    "date": "02 Dec, 2024",
+    "title": "Angular 19 & Role-Based Auth",
+    "description": "A major version bump with Angular 19, role-based authorization, and package upgrades.",
+    "features": [
+      {
+        "New Features": [
+          "Angular 19",
+          "Added role-based authorization"
+        ]
+      },
+      {
+        "Improvements": [
+          "Package upgrades"
+        ]
+      },
+      {
+        "Bug Fixes": [
+          "Bug fixes"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 8,
+    "version": "v2.1.0",
+    "date": "06 Jan, 2025",
+    "title": "100% Standalone Components",
+    "description": "Removed all NgModule files — the entire template is now 100% standalone components.",
+    "features": [
+      {
+        "Breaking Changes": [
+          "Removed module files — 100% standalone components"
+        ]
+      },
+      {
+        "Improvements": [
+          "Minor package upgrades"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": "Note: This is a breaking change if you are extending the template with module-based components."
+  },
+  {
+    "id": 9,
+    "version": "v2.2.0",
+    "date": "21 May, 2025",
+    "title": "Angular 20 Upgrade",
+    "description": "Upgraded to Angular 20 with the latest package updates and code improvements.",
+    "features": [
+      {
+        "New Features": [
+          "Angular 20"
+        ]
+      },
+      {
+        "Improvements": [
+          "Package upgrades",
+          "Code improvements"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 10,
+    "version": "v2.3.0",
+    "date": "30 Jun, 2025",
+    "title": "AG Grid Integration",
+    "description": "Added AG Grid demos to showcase enterprise-grade data grid capabilities.",
+    "features": [
+      {
+        "New Features": [
+          "Added AG Grid demos"
+        ]
+      },
+      {
+        "Improvements": [
+          "Package upgrades",
+          "Code improvements"
+        ]
+      }
+    ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 11,
+    "version": "v2.4.0",
+    "date": "24 Nov, 2025",
+    "title": "Angular 21 & Signal Forms",
+    "description": "A major modernisation release — Angular 21, Signal-based Forms, and a full Zone.js removal for maximum performance.",
+    "features": [
+      {
+        "Angular 21 Upgrade": [
+          "Migrated Reactive Forms to the new Signal-based Forms.",
+          "Removed deprecated HttpClientModule usage.",
+          "Eliminated dependency on Zone.js for improved performance.",
+          "Resolved all SCSS deprecation warnings."
+        ]
+      },
+      {
+        "Authentication System": [
+          "Updated and refactored the entire auth flow for better reliability and maintainability."
+        ]
+      },
+      {
+        "Codebase Improvements": [
+          "General code cleanup and refactoring.",
+          "Performance optimisations and better project structure."
+        ]
+      }
+    ],
+    "banner": "https://codedthemes.com/wp-content/uploads/edd/2025/04/mantis_angular_admin_template.webp",
+    "conclusion": ""
+  }
+]
