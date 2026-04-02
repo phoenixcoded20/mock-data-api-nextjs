@@ -1233,6 +1233,106 @@
       ],
       "banner": "",
       "conclusion": ""
+    },
+    {
+      "id": 10,
+      "version": "v11.0.0",
+      "date": "27 Dec, 2025",
+      "title": "",
+      "description": "",
+      "features": [
+               {
+          "UI & Pages": [
+            {
+              "Added new pages:": [
+                "Changelog",
+                "FAQs",
+                "Join Waitlist",
+                "Component Presentation"
+              ]
+            },
+            "Added Info color variant to color components.",
+            "Fixed Quill Editor design issues in Dark Mode and RTL layouts."
+          ]
+        },
+        {
+        "Core Improvements":[
+          "Introduced CSS Variables for improved theming and customization.",
+          "Fixed UI flickering issues across layouts.",
+          "Improved Config Context for better state management.",
+          "Enhanced ApexCharts implementation.",
+          "Improved TanStack Table integration.",
+          "Removed deprecated Grid column props.",
+          "Fixed Stack spacing issues (gap, justifyContent, alignItems).",
+          "Corrected slotProps usage."
+        ]
+      },
+      {
+        "Mapping Updates":[
+          {
+          "Replaced mapping libraries:":[
+            "mapbox-gl → maplibre-gl",
+            "react-map-gl → maplibre-react-components"
+          ]
+          }
+        ]
+      },
+    {
+      "Upgrades":[
+        "Upgraded project dependencies to the latest stable versions.",
+        "Updated to React v19.2.x.",
+        "Updated to Next.js v16.1.x."
+      ]
+    },
+    {
+      "Bug Fixes":[
+        "Multiple bug fixes and UI refinements across components."
+      ]
+    },
+    {
+      "Performance":[
+        "Improved overall Lighthouse performance scores."
+      ]
+    },
+    {
+      "Security Updates":[
+        "Next.js: Resolved reported security vulnerabilities → Next.js Security Update: December 11, 2025",
+        "React: Fixed security issues related to Denial of Service and Source Code Exposure in React Server Components → React Security Update: December 11, 2025"          
+      ]
+    }
+      ],
+      "banner": "",
+      "conclusion": ""
+    },
+     {
+      "id": 11,
+      "version": "v11.1.0",
+      "date": "02 Apr, 2026",
+      "title": "",
+      "description": "",
+      "features": [
+        {
+          "New Added": ["TanStack Table: Column Pinning"]
+        },
+        {
+          "Improvements":[
+            "Adding missing chart widgets",
+            "Chat Application: Refector structure",
+            "Change Authentication flow",
+            "Footer: Social links",
+            "Components: Refector Path/directory and name",
+            "Adding entry animation to ApexCharts for better visual experience."
+          ]
+        },
+        {
+          "Package upgrade:":[
+          "Upgraded ESLint to v10.0.0. (Only VITE)",
+          "Other package upgrades to the latest version"
+          ]
+        }
+      ],
+      "banner": "",
+      "conclusion": ""
     }
   ]
 }
