@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "ip": "110.227.245.211",
+    "package": "apm-mantis-react-ts",
+    "version": "1.0.0",
+    "source": "setup:apm",
+    "os": "win32",
+    "nodeVersion": "v24.11.1",
+    "userAgent": "node",
+    "timestamp": "2026-05-11T05:48:56.376Z"
+  }
+]
