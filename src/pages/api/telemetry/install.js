@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import cors from 'utils/cors';
+import { supabase } from 'utils/supabase';
 import telemetryRecords from 'data/telemetry.json';
 
 // ==============================|| TELEMETRY - INSTALL TRACKING ||============================== //
@@ -14,22 +15,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  const { package: packageName, version, source, os, nodeVersion, timestamp } = req.body || {};
-
-  // Extract IP address from request headers
-  const forwarded = req.headers['x-forwarded-for'];
-  let ip = forwarded ? forwarded.split(',')[0].trim() : req.socket?.remoteAddress || req.connection?.remoteAddress || 'unknown';
-
-  // If IP is loopback (localhost), fetch real public IP
-  if (ip === '::1' || ip === '127.0.0.1' || ip === '::ffff:127.0.0.1') {
-    try {
-      const ipResponse = await fetch('https://api.ipify.org?format=json');
-      const ipData = await ipResponse.json();
-      ip = ipData.ip || ip;
-    } catch {
-      // keep the loopback IP if the lookup fails
-    }
-  }
+  const { package: packageName, version, source, os, nodeVersion, timestamp, ip } = req.body || {};
 
   // Check if this IP has already been recorded for the same package
   const alreadyExists = telemetryRecords.some((r) => r.ip === ip && r.package === (packageName || 'unknown'));
@@ -49,11 +35,33 @@ export default async function handler(req, res) {
     timestamp: timestamp || new Date().toISOString()
   };
 
-  // Push to in-memory array
-  telemetryRecords.push(record);
+  try {
+    // 1. Insert into Supabase
+    const { error: supabaseError } = await supabase.from('apm_telemetry').insert([
+      {
+        ip: record.ip,
+        package: record.package,
+        version: record.version,
+        source: record.source,
+        os: record.os,
+        node_version: record.nodeVersion,
+        user_agent: record.userAgent,
+        timestamp: record.timestamp
+      }
+    ]);
 
-  // Sync in-memory data to telemetry.json
-  fs.writeFileSync(TELEMETRY_FILE, JSON.stringify(telemetryRecords, null, 2), 'utf-8');
+    if (supabaseError) {
+      console.error('Supabase Insertion Error:', supabaseError);
+      return res.status(500).json({ success: false, message: 'Supabase Error', error: supabaseError });
+    }
 
-  return res.status(200).json({ success: true, message: 'Install tracked successfully', record });
+    // 2. Sync to local JSON (Backup/Legacy)
+    telemetryRecords.push(record);
+    fs.writeFileSync(TELEMETRY_FILE, JSON.stringify(telemetryRecords, null, 2), 'utf-8');
+
+    return res.status(200).json({ success: true, message: 'Install tracked successfully', record });
+  } catch (error) {
+    console.error('Telemetry Processing Error:', error);
+    return res.status(500).json({ success: false, message: 'Internal Server Error' });
+  }
 }
