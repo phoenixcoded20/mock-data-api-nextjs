@@ -143,7 +143,7 @@ export const products = [
     brand: 'Apple',
     description: '11th Generation Intel® Core™ i5-11320H ...',
     about:
-      'Great choice for those who love poweful and fast laptopts. It comes with 2TB of harddrive and 12GB of RAM.Its fast and comes with a powerful processor',
+      'Great choice for those who love powerful and fast laptopts. It comes with 2TB of harddrive and 12GB of RAM.Its fast and comes with a powerful processor',
     quantity: 70,
     rating: 4.0,
     discount: 16,
