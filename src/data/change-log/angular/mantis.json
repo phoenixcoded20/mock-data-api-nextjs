@@ -244,6 +244,49 @@
         ]
       }
     ],
+    "banner": "",
+    "conclusion": ""
+  },
+  {
+    "id": 12,
+    "version": "v3.0.0",
+    "date": "05 JUNE, 2026",
+    "title": "Angular 22 & Modern Components",
+    "description": "Upgraded to Angular 22 and TypeScript 6, featuring signal-driven reactivity, upgraded AG Grid 35 tables, and custom compatibility shims for maximum stability.",
+    "features": [
+      {
+        "Angular 22 Upgrade": [
+          "Code update as per angular latest version",
+          "Some deprecated code replace with new one",
+          "Update angular.json file",
+          "Update third party packages"
+        ]
+      },
+      {
+        "Codebase Improvements": [
+          "Use ngb class & bootstrap extra classes remove",
+          "Some deprecated classes remove",
+          "Remove SVG  Image logo & Create logo SVG component for theming",
+          "On click change logo link",
+          "General code cleanup and refactoring",
+          "Performance optimizations and better project structure"
+        ]
+      },
+      {
+        "Update Pages": [
+          "Landing",
+          "Dashboard header layout"
+        ]
+      },
+      {
+        "Add New Pages": [
+          "All component",
+          "Faq",
+          "Join waitlist",
+          "Change log"
+        ]
+      }
+    ],
     "banner": "https://codedthemes.com/wp-content/uploads/edd/2025/04/mantis_angular_admin_template.webp",
     "conclusion": ""
   }
