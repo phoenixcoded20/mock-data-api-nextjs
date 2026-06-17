@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Line Chart",
+    "icon": "tabler-chart-line",
+    "prompt": "Create a responsive line chart with multiple datasets, tooltips, and a legend using MUI and Recharts"
+  },
+  {
+    "label": "DataGrid with Firestore",
+    "icon": "tabler-table",
+    "prompt": "Build a DataGrid that connects to Firestore, supports real-time updates, pagination, and inline editing"
+  },
+  {
+    "label": "Sign In page",
+    "icon": "tabler-login",
+    "prompt": "Design a modern sign-in page with email and password fields, social login buttons, and form validation"
+  },
+  {
+    "label": "Responsive Dialog",
+    "icon": "tabler-square",
+    "prompt": "Create a responsive dialog that adapts to mobile as a full-screen sheet and desktop as a centered modal"
+  },
+  {
+    "label": "Booking Form",
+    "icon": "tabler-calendar",
+    "prompt": "Build a multi-step booking form with date picker, time slot selection, and confirmation summary"
+  },
+  {
+    "label": "Styled DataGrid",
+    "icon": "tabler-border-all",
+    "prompt": "Create a custom-styled DataGrid with alternating row colors, sticky headers, and column resizing"
+  }
+]
