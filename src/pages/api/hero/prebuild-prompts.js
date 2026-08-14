@@ -3,5 +3,6 @@ import cors from 'utils/cors';
 
 export default async function handler(req, res) {
   await cors(req, res);
-  return res.status(200).json({ prebuildPrompts });
+  const data = Array.isArray(prebuildPrompts) && prebuildPrompts.length > 0 ? prebuildPrompts : [];
+  return res.status(200).json({ prebuildPrompts: data });
 }
